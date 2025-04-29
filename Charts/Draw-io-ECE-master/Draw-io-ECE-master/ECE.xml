@@ -1,0 +1,827 @@
+<mxlibrary>[
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(nZJhDoMgDEZPw3+EEyxuuwdqN4kKBNHp7VdFzVBZliXGpN+Thy0QnralMEAYLQm/EsYSSvGN9WtXi9ZA7nzYCytFVoMnrbO6gpcs3OKQqgQr3UT5jdALfjM9PM21UiiRWrUB+eAoE1LhWjp42bL9uPyOrwz6G3Bgg5Sw+8/a5H8tTzGJtcLTTOTV0+pOFcdVUfbQFk7AhmVd+zF/adOI6QAOYMWN7iE61vWUz93bIDvrHUkoCcuB7aQjCznf830Q6xDzSJN4j2PjmZcd5jun/u7PwRs=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Wire Jump"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=middle;verticalAlign=top;shape=mxgraph.electrical.signal_sources.vdd;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=12;html=1;flipV=1;direction=east;labelPosition=center;spacingBottom=0;spacing=0;spacingTop=-35;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "VDD"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=bottom;shape=mxgraph.electrical.signal_sources.vss2;fontSize=12;flipV=1;fillStyle=auto;fillColor=none;direction=east;labelPosition=center;spacingTop=0;spacing=0;spacingBottom=-30;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "VSS"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZRNDoIwEIVP063pj7g3qPcoOEojtKRU1NtbqBgr1CjChmTey3y8ZqZFLK4yXgKiOENsgyil2H5sefFLXpWQGqfVXAue5OCcymh1govYmwdByAy0MI3LtgivUcPAiMWpktJChJKV57z4FsaFtL346mCP39+8qrT8AgxopxKnIrr7HruI5gGTmfL62C795HmnA/uJyVyDmwxMxmNZbJXQcrM44enpqNVZ7vtdQe+gNAwYT1vkubt4H45Z8uZK9ozOLlQNL+cfvGnD6I6QCxkmRL8Tlv8C3iIQOgKxmjjER0K7BIE52ac5NOG2rbcireqe81a4Aw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Ground"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZPZDoIwEEW/pq+mtOLyaFD/o8AojdiSUre/tzCgVmji8kIy9zJnbiZTwpO6EBUQRgvC14QxRt3HlRe/FHUFmUXtLIwUaQno1NboA1xkbjuCVAUYaRuXbwhdkYZBCU8yrZSDSK1qz3nxHUxI5XrpFWF0EuOYW1djVbkJR7BgUI1QJWz7NtIpoak8SUV22Bt9UvmwK+jttIER42HLssSNjOTpf6pEs6uB0dtHfYbnBiI6toBxdE8opQoT4k8Ifobp94C3CLN/I/iA+Q8Rpt8T/AgLD7D8IQL7nNBeYeBQ3KMNnVjbNrjRVsWH3gp3);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Equipotential"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc3;direction=east;labelPosition=center;spacingBottom=0;spacingLeft=40;spacing=0;spacingTop=20;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Voltage Source"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc1;direction=north;labelPosition=center;spacingBottom=0;spacingLeft=40;spacing=0;spacingTop=20;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Current Source"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=ac;labelPosition=center;spacingLeft=40;spacingBottom=0;spacing=0;spacingTop=20;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "AC Signal"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=stepOn;strokeColor=default;fontSize=38;fillColor=none;direction=east;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Step Signal"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=pulse;strokeColor=default;fontSize=38;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Pulse Signal"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.batteryStack;labelPosition=center;spacingBottom=0;spacingLeft=40;spacing=0;spacingTop=20;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 50,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Battery"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSourceType=dependent;elSignalType=dc3;direction=east;labelPosition=center;spacingBottom=0;spacingLeft=35;spacing=0;spacingTop=20;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Dependent Voltage Source"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.signal_sources.source;aspect=fixed;points=[[0.5,0,0],[1,0.5,0],[0.5,1,0],[0,0.5,0]];elSignalType=dc2;elSourceType=dependent;direction=east;labelPosition=center;spacingBottom=50;spacingLeft=35;spacing=0;spacingTop=20;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Dependent Current Source"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"V\" style=\"verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=20;spacing=0;spacingBottom=2;points=[[0,0.5,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0.5,0,0,0]];fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Voltmeter"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"A\" style=\"verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=20;spacing=0;spacingBottom=2;spacingTop=0;points=[[0,0.5,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0.5,0,0,0]];fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Ammeter"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"Z\" style=\"shape=stencil(rVNRDoMgDD0NvwtCdoCFbfdArZPowCCb2+1XrUumEz/mEkLS1/LegxYmVVvqBpjgJZNHJkTCOe4Yd7NYtw1kgcC79kanNVCmDd5V0Jk8jBzGluBN6LPyxPgBa/olVeasRRLjbDvJfOSRTBuLZ/mDyPhuTzLPMaaoQYUrBPCjTUKZOP9MnPyNeOr3LbOdONlCLBUisQZIleqsunh3s/miHd/3PnbD5YGZD9SioYisVIXzsOKnMHVNc7fyhtGCQfpLYUDpOwzACw==);whiteSpace=wrap;html=1;spacing=0;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Generic Impedance"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_1;labelPosition=center;spacingBottom=0;spacingLeft=25;direction=west;spacingTop=10;spacing=0;points=[[0,0.5,0,0,0],[0.5,0,0,0,-3],[0.5,1,0,0,2],[1,0.5,0,0,0]];fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Resistor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.resistor_2;labelPosition=center;spacingBottom=0;spacingLeft=25;direction=west;spacing=0;spacingTop=10;points=[[0,0.5,0,0,0],[0.5,0,0,0,-3],[0.5,1,0,0,2],[1,0.5,0,0,0]];fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Resistor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.variable_resistor_2;labelPosition=center;spacing=0;spacingTop=30;spacingLeft=25;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Variable Resistor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.trimmer_pot_2;labelPosition=center;spacing=0;spacingTop=30;spacingLeft=40;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Trimmer"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.symmetrical_photoconductive_transducer;labelPosition=center;spacing=0;spacingTop=26;spacingLeft=42;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Photo-Resistor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.resistors.memristor_1;labelPosition=center;spacingBottom=0;spacingLeft=25;direction=west;spacingTop=10;spacing=0;points=[[0,0.5,0,0,0],[0.5,0,0,0,-3],[0.5,1,0,0,2],[1,0.5,0,0,0]];fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60.00000000000001,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Memristor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_1;labelPosition=center;spacingBottom=0;spacingLeft=25;direction=east;spacing=0;spacingTop=10;points=[[0,0.5,0,0,0],[0.5,0,0,0,-3],[0.5,1,0,0,2],[1,0.5,0,0,0]];fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Capacitor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.capacitor_2;spacing=0;labelPosition=center;spacingTop=10;spacingLeft=25;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Capacitor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.variable_capacitor_1;spacing=0;labelPosition=center;spacingTop=10;spacingLeft=25;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1.1368683772161603e-13\" width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Variable Capacitor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.capacitors.multiple_capacitor;fillStyle=auto;fillColor=none;direction=east;spacing=0;labelPosition=center;spacingTop=25;spacingLeft=-15;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"1.1368683772161603e-13\" width=\"60\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Multi-Capacitor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.inductor_3;labelPosition=center;spacingBottom=0;spacingLeft=25;direction=east;spacing=0;spacingTop=0;points=[[0,1,0,0,0],[0.5,1,0,0,0],[1,1,0,0,0]];fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Inductor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=middle;shadow=0;dashed=0;align=left;html=1;verticalAlign=top;shape=mxgraph.electrical.inductors.inductor;spacing=0;labelPosition=center;spacingTop=15;spacingLeft=32;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Inductor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(vZXdcoIwEEafJrdOfpDhtkPb94gYS8aYMAkqvn0DoS3BQBS1N858u8PZA2QFkNyUtGIAwxKQd4AxhvbHxrOLWR+pqVhRu9qJak43grmOqbXaszPf1j2By5JpXrdd8gHgG2iREJC8UFJaCFfSeJ1B38Iol/Za2DhYP/7ipcryD6xm2lWRqwL8eTMWvQbr26LX2D4NG7R92Osug9X6X17ECq8fvrtJBsltZepsk3xDi/2XVke5DU5mQvDKsL+xaebNxd46Ji6VXgoKTYwl+U5pNuOz40K4lZ55XBVtl/2q8dM+qNPghoIrHCb/vo6jdgTkI5D/H9VgP19GuSGjfp/hIomYRRKxSMYWSySSiEQakUifIZFGJLKIRLZEYu5Q3UYQXA4I2T2IbqUmTr39hE7tS3fZ1cJ1VffZ7Qrf);whiteSpace=wrap;html=1;direction=north;fillColor=none;spacingTop=0;spacing=0;spacingLeft=0;verticalAlign=top;align=center;labelPosition=center;verticalLabelPosition=bottom;spacingBottom=0;spacingRight=0;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Coil"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZbtboMgFIavhr+LgnX+bdx2H9SySWrBIP26+6FYU7SIpZg0Tc555emjORQBypsS1wTAqAToC0CYRepLlRezxE1NCql7Zywo3lVEJ40U/EAudC97AmUlEVS2KfoG0VZd035QXnDGFIRy1hjJQ65gmDK1NrpqWP/zN6OqFf9IJBG6G+sugD+LsfE62JHtx2Yl33Bg0zhexzcYdrjx4UHATQjKp4WCctWxjS3Kd7g4/Al+YvvpKmv2ywV5EgwxrSq9pWbuqsbtZpsE9/jIz8SxhZ6T74CKMitgGaE4Ce0Qm4y+TPr6Ck3oDY5yNMrROxIui8RhkQSxSBwWqcMiDWKROiwyh0XmZWEO1sB4YTTnZjvzcDAJ6SLCysPtJxF6uP0sQg+3n0Xo4V5mMTvc87PZHRmWf3X1imY7D7plkwOl6+rXuq7xDw==);whiteSpace=wrap;html=1;verticalAlign=top;align=left;direction=west;spacingBottom=0;spacingTop=-14;spacing=0;spacingLeft=62;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Generic Transformer"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(vVTRTsQgEPwaXk0L9vTVVP0PrrfazXFAAO/076VdMG16aGOjSdNkZsow7LJlovW9tMB41TPxyDi/reIrwgvB+wSlt9AF4s7SodwrIMUHZ45wwUNIDqh7cBgGVTyx6iF+Mzyi7YzW0QSN9jNlokcziTqurd7JLG3/kdBNQ9jGHU4QwBFfE8v482rjeouxaCNTOo5o97I7vjrzpg/LVUXtxTi4InzJqBSV+puDWjk0YSFk+WTOMCntvLa51Ne9s4VCPbGo735hMU/BxeYUzfYUu+0p8qSsshivQqFbcSR/6vOqywBKofXlbmWYJn1HqJ+hkvcfJWz+IeFY+sWwjSz9CkfiEw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "SPST Switch - ON"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(vVTRbsIgFP0aXhcKq/pquu0/sF5XIgIBptvfS3upaa1sumZLmibnnHI43Hsp4ZVvhAXCaEP4C2HsmcZXhCeEqwSFt1AH5I7CSbFRgIoPzuzhJLchOUjdgJOhVfkroev4TfvwqjZaRxNptB8pAz2aCanjWvqJZmn7r4SeSsQ27nCAAA75AlnC3u42LuYY8yoyuePwaiPq/bszH3o7XZXVdsbBDeEiS6Ww1N8c1Iq2CROhlw/mCIPSjmvbl/q2d2+hpB5YFMtfWIxTMD47RXk1JI+HWMwPsaIPWHSTkGlWvJE/tfmuWQClpPX5ZvUwXfQFomaEct5/lLD8h4Rd6Sd3rWPxT9gRZw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "SPST Switch - OFF"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(zZXvTsMgFMWfho8aCvvjV1Pne7AOLRkDArjp20t7wQxb5upsYtI0OfeUH6dwSxGtXcsMRwS3iD4hQhY43II8gXyIkjnDGw+1I7OCbSUHx3mr9/wkdj4ShGq5Fb5z6Qbhx/BMd9G60UoFiNDKZc6ZH2BMqDAWvwMsTv8R1f0StAkzHLjnFuoVVBF5vhpcZeBqHiyegqV1qJTWiNZb1uxfrX5Tu+GooveiLR8xvmwhJezfhdc0rNvZgZHsgz7y0n4lOY5OBCnUGaFa/wKRhyD05hTL9dhGTgmxotMJeYb07f1ZhsXtIS4j+mYs9Es4aX7qtKvakUspjCs3TJLxAFuBajNVYs+U8Fsz3dH/npDOsYZ9cwwOpL4K/6C+8Ak=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "SPDT Switch - Toggle"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(zZbRboMgFIafhsslAtXudnHre1DLJikFA6zd3n4ouoiK62BdmhiTc379/eScIwJc6po0FKCsBvgZILTJ7MmGFxc+9iHRDa2My52JYmTPqVO0UfJIL+xgegcmaqqYaVX8ArIne0174LKSQlgTJoX2lJFuzQgT9t7sw5n1j//0osb6n6ihymWhywK0i7SFf2ULb0ML42lxaTOhhcflnlTHNyXfxWF+V1B7lYouCN8y49w1xcprNqRtl5kwyCd5pqNqLXbBsvXgwJkYOcDt7x18BoRTGfJkhiKZYRjneIZJLTYREJNiXGexWo0YijydokinmBRk3aIby8Dk2A/5TzN31WBSzlmjw9V6wN7+ULio9qKQ940I87snnKwh3t4dYf4PhF37zjaPLut+QrrEFw==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "DPDT Switch - Straight"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(zVbRboMgFP0aHpcIVLvXxa3/QS2bpBQIsHb7+6HoIiquw3VpYkzuPXI83HOvCHBpaqIoQFkN8DNAaJO5mwsvPnzsQmIUrazPnYlmZM+pR4zV8kgv7GA7BiZqqpltUPwCsif3THPhspJCOBImhQmQAe7ICBNubfbhybrXfwaRcvwnaqn2WeizAO0SaeFf0cLbqIXpanHpMrHC43JPquOblu/iMF0VxV6lpjPAN8w4902xsE1FmnaZAD18kmc6cGu2C+apewbOxIABbn/PEGpAeK2GPNSwSRBRrBbRz3N6IUZmXLeNRTdSKjGyI0VFvronivUiRn4sU7RjGZkc9yH/aeauGkzKOVMmbtYDDs6Hwkd1EMW4b6Qwv3uFoxri7d0pzP9BYdu+k8OjzfqfkDbxBQ==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-1.1368683772161603e-13\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "DPDT Switch - Crossover"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(xZXdToQwEIWfprcGWhbx0qC+R5cdpVm2JaXu6ts7MLChsDUKGBNCMnOYr2dKf5jIm1LWwHh0YeKJcZ5E+MKwpDDrQ9nUUDjKnaVVcl8BKY2z5ggXdXB9idIlWOVaVTyz6BG/aR+RF0ZrhCijG08Z6QiTSmNt9EGwfvjPPrrbUVzjCCdwYCkfU5bxlx+DYx/8N9h4K+y18elETCEix0xookW+l8XxzZp3fZhXBbVXY+GGcJVVVdEi+KapWrbLYyYM8smcIfTThxV5Gz0QKqVHhEUI38QEwde7SDdwkf7eReIj4gWNTBDr+9glq03cr+8jW9DIBi6Ev5fTh/9xkfkuAgfK6IAI7GG8QkK7vyubHR9dlq6dLvEF);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "BJT NPN"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZXbjoMgEIafhtuNgO32tnG370Ht7EpqwSA9vX1H0Ua0NLvSJoZk5nc+ZoABwrO6EBUQlpwJ/yKMpQkOaBbOXHWmqCvIrfOdhJFiW4JTamv0Hs5yZ7sQqQow0jYq/ybJGv9pPp7lWimESK1qTxnoCBNSYWxycbBu+mtnfSycXeEMB7BgnJ86L2GbP4OpD34Plr4Key98vBBjCM/QE1ponm1Fvv81+qh206ig9qMNPBDusixLdwieFFWJ5nhMhF4+6BOENr0/kY/RPaGUakCYhfCTGCFYfBbLF2Sx/H8WqY+gMwoZIeLrWKTRSXzG17GKL2TOhjC/l1mgld+dBfMRNHSlDK6IQBfjIxLq/zZscoG0XvfwtI4b);html=1;direction=east;spacing=0;spacingTop=1;verticalAlign=top;align=left;spacingLeft=-8;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "BJT PNP"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZVhb4MgEIZ/DV8XAev8urjtf1B7m6QWDLJ2+/dDT5uKxXTiEmNy93oPr3A5CC/aSjRAWHIh/JUwlibu5cIKw3wIRdtAaTF3FkaKfQ2otNboI1zkwQ4lUlVgpO1U/kaSF/dN9/Ci1Eo5iNSqnSg3uoMJqVxt8o2wYfmfIXraYdy4FU5gwWCeYpaw94fBdAr+HyzdCnv9cX8jfAgvXCa00bzYi/L4afSXOsyrgtqHNnBHuMqyrrEJFn6qEV17zIRRPukzhA597Mj76JFQS3VDoM8rEFMTHoLFu8hWuPD2guZ/d+EheLwLnka7SLNoF7sVJ+IhMhbtYk1fpJsj4s/0seZcNLEBIl9E9GMqMEncRRaaQX3ZbIj1Wbz8+sQv);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "NMOS Enhancement"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZVhb4MgEIZ/DV8X5azz68LW/0EtnaQUDLh2+/dD0UVoMVZdYkzuTp57Od8AAmIqWjOEkxuCd4RxltiXDSsXFn1ITc3KxuWuVHN6EMxVTKPVmd34semXcFkxzZu2Ch8oebPftA+QUklpIVxJ41VGdQujXNq1ybeD9e1/+uhl5+LadriwhmmXT10W4f1scOqD/webboX923g4iBACxGZigwZyoOX5U6sveXzYmgnBa8NG2wGvLRQuHLziWSWbUBTpC+SkNJsQdOJCOINNDKymrfXuCkP5oq6jHfmGGtz+GD0QBJfxmcxD+CLSVw+Bl6jwEfkCFcEs0uJ5FQEC1quAiI2eUJHlq1XsFvyRAJHj1SqW+CLbHLH+n84z56SIDRDFJKI7piInib0kY2dQt+zuEOuy7mLtEr8=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "PMOS Enhancement"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZRRboMwDIZPk9eJJF3H68TWe6TUG1FpgkLWbrefwVCV0KAOmIQi2T/+4jh2mMzqQlXARHJh8o0JsUlwQbMgM+1MVVeQe/KdldNqXwIptXf2CBd98F2INgU47RtVvrPkFf9pPpnl1hiEaGvqgXKjI0xpg7HJN8G67X866+mZ7Ap3OIEHR35OXiZ2D4P5EPw/WL4W9nrwsBAhRGboiRVaZnuVHz+d/TKHcVRU+7AO7ghXWZclNcHEoSrVtMdI6OWTPUPs0vuOvI/uCaU2NwT+MgMxTCJAiOVZbGdkEdSCp3/PIkBsxeIs5tRiszpieTUfu5DJJFZApJOIdjQj04OPd2zu2rDR4LZeevBbxy8=);html=1;spacing=0;spacingTop=4;verticalAlign=top;align=left;spacingLeft=-10;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "NMOS Depletion"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZXhboMgEMefhq+LgGv9urD1Pailk5QCAdZub18UXcQW4qxLjMndye/+d94FgIltqGYAFVeA3wFCZeFf3myCWfUmtZrVLvgu1HC6FyxErDPqxK784PojXDbMcNdG8Qco3vw37YNJraT0EK6kjSKjuIdRLv3Z4jvA+vQ/vfXyGmztM5yZYyb4YfACtJsNhjH4f7BwLexv4dNGTCGYeE+q0ZjsaX36NOpLHh6mZkJwbdmoHBylxVUwh1mJRqXMKErkxeSoDMsIOnIhwoBlGqZpO3p3gSF8VpdRRfFADdP+GD0QBJfpnsxDxCLgNkKgJSpixGaBikkvYPV3FRPEBj2tYkkvytURz3dz3g/JilgBUWUR3WomtsdfDKm9647dLW7nDZdJ57gB);html=1;spacing=0;spacingTop=4;verticalAlign=top;align=left;spacingLeft=-10;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "PMOS Depletion"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(xZVhb4IwEIZ/Tb8a2iKyjwvb/kfFOhqxJaXT+e89KBhb7KJUs4SQ3L3cw3tHcyBatBVrOCLJEdEPREiawA3Cyob5ELK24aWxuQPTgq1rbpXWaLXjR7ExQ4mQFdfCdCr9RMk7PNNdtCiVlAARSraOcqUDjAkJtcmvhQ2vPw3RYmnjBt6w54Zrm8c2i8jX3WDsgl+Dxc/CXhr3B+FDaAGZ0KBpsWbl7lurH7mZVgW1rdL8hnCRRV3bQ/BHUw3rjsdEGOW9OvDQRx9P5G30SKiFvCLg1QyEa8JDkHgX2QwX3ixw/rgLD5GRaBcke9xF6jUyY5weIn6ayzTaxCq+j3xGI09wQd2Nkr39j4vcdRFYa2Mx5AObBH5koR3Ul02WWJ+1P78+cQY=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "N-channel IGBT"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(tZXRboMwDEW/Jq8TcSjldWLbf6Q0G1FpgkLWbn8/Q6BqQjOtZJUQkn3x4dpEhrCqb3gnCGRnwl4IQJ7hDcPGheUU8r4TtXW5EzeS71rhlN4afRBnubdTiVSNMNIOKnsl2TM+M1ysqrVSCJFa9Z5ypSOMS4W12ZeDTa//nqKnjYs7fMNRWGFcnrosgbc/g6kPfgyW/hf20ng4iBDCKszEBs2qHa8PH0Z/qv2yKqq9ayNuCBdZtq07BL801fHheCyEWT7qk4h99PlE3kbPhFaqKwLdrkD4JgIEpLsoVrgIZkHL+10EiAKSXUBxv4s8aGTFOANE+jQ3ebKJbXofZXojaz4I+BsFIgvl0S7AR9DYYpvLMR/ZJfgri22hsWyxxsas+/2NiR8=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "P-channel IGBT"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rZbRboMgGIWfhttFIUZ3ubjtPailk5SCAdpub18UbQpWZsHEmPAf+TyeH1SAatXijgCYtQB9AgjzLDNnM756Y6w60mhbvGBJ8Y4RqygtxZFc6V6PDMpbIqnuVfQFsg9zTX+guhGcGwgVXDnKg25gmHIzN/u1sPH2f+PoDdpxZ+5wIprI0aatAvgdDa62AuceuNjM8YTyw0iDVM8hqDaVpY6heoeb448UZ76fz1rUDkKSJ8JdpozZ1RR4qA7362wmTPJJXMhDL7wuh/KaCIzyZcJ9P7zCeHcZxSpEw4QK5WDqC1GYTf1fiNsn7T7iBkmvQ4RMVOkm1iFcE1Hd9l3EMFwbhYuAxes2fES6izLdRUxL8jJ5YUCU7MJbnmUZ4cLLAiVnEbNTvSzCiMg31TBt9r0YqvaXZSjcAA==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"100\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 100,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "Op-Amp"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZRbDsIgEEVXw6+hoAswqPvAOloiQgP42r200yZ9WFLrT5O5N5wZLpMSLnwhSyCMFoTvCGOMxk8sn1ium1L6EvKA2kM6JY8a0PHB2Ss81Sk0BGUKcCpULt8TuiUVkhIucmtMhChrfM/p+BEmlYln6QthTft3U602WJexww0CONQzVAk7zAZn/4C5iMrUdbg4yvx6cfZuTl/HKWUV1cho7Zt9QGfOQQI0ddUWoZWZRrAFCN5HZLMQubYeEs8S9VEUtTqRHxdn6yAR7FlpjeuY6PpT+kuunQx/HqI/xCD8/59vHiI5xJIo1r8gvq9H602+cn1stCa1ij+6WvgA);whiteSpace=wrap;html=1;spacingTop=10;spacing=0;spacingLeft=25;align=left;verticalAlign=top;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "PN-Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZRBbsMgEEVPw7bC4HZf0fYexJnUKAQsIElz+2CPLYU6Rg7eWJr/xWPmMzLhwreyA8JoS/gXYYzR+InlFct6LKXvoAmoXaRTcqcBHR+cPcJV7cNIUKYFp0Lv8m9CP0mPpISLxhoTIcoanzgPfoRJZeJZ+oew8frbWL29Y93FG04QwKFeoUrYz2pwtQXMRVSWxuFiJ5vjr7Nns3/aTif7qGbGZJ/sBR76/JcAzY06IbQyywhWgOApolqFaLT1kHmWqM+iGNSF/Lg4WAeZYA9Ka1zHzK0vpV8ydjb8dYi0CfaRrsDm59tOKELUBYg0iaI1TLuoX0E839HJW1y14dhsVwcV/7aDcAc=);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;fillColor=none;flipV=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Zener Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rZRNbsMgEIVPw7bC4GZf0fYexJnEKAQsoEl7+2CPLYU4Rv7pxtK8Jz5mHmDCha9lA4TRmvBPwhij8RPLG5ZlX0rfQBVQu0qn5F4DOj44e4abOoSeoEwNToXW5V+EfpAWSQkXlTUmQpQ1PnEe/AiTysS19Bdh/fZ/ffX2jnUTd7hAAId6gSph37PBxRYwF1GZGoeLvazOJ2d/zOFlO41soxoZg32xV3jo8ykBmht1QGhlphFsBYKniGIWotLWQ+ZYoj6KolMn8uPiaB1kgj0qrfE6ZnZdlP6asbPhz0OkTbBdgiiXN/FE2H4BthNWIcr/RhS75cex6i2kXZRLEK8fyuBN3vdu2ejBdCr+8jvhDg==);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;fillColor=none;flipV=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Schottky Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZTRjoMgEEW/htcNQnffG3b3P6gdV1IKBmi7/fuio4nUSqy+mMy94TBzmUi48LVsgDBaE/5NGGM0fmJ5w3LXl9I3UAbUrtIpedCAjg/OnuCmjqEnKFODU6F1+Q+he9IiKeGitMZEiLLGJ87IjzCpTDxL/xHWX3/vq49PrJt4wxkCONQLVAn7XQwutoC5iMrcOFwcZHn6c/Ziji/baWQb1cQY7LO9wqjPpwRobtQBoZWZR7AVCJ4iikWIUlsPmWeJ+iSKTp3Jj4vKOsgEWymtcR0zt76V/pqxs+EvQ6RNsK90BTY/33bCMkQ6xqodSrvYvYN4vWCDN7sn3bHJonUq/io74QE=);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;fillColor=none;flipV=0;flipH=0;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Breakdown Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZTdjsIgEIWfhltDQfd+g/oeWMctEaEB/Hv7pZ02EWtJbW+azDnhY+YwKeHCV7IGwmhF+JYwxmj8xPKO5borpa+hDKjdpFPyoAEdH5w9w10dQ0dQpgKnQuPyHaG/pEFSwkVpjYkQZY1PnBc/wqQy8Sx9IKy7/tlVqw3WdbzhAgEc6gWqhO0ng4slYC6iMjYOFwdZnv+cvZrjx3Zq2UQ1MHr7Ym/w0udbAjQ3ao/Qyowj2AwETxHFJESprYfMs0R9EEWrjuTHxck6yAR7UlrjOmZu/Sr9OWNnw5+GSJtgP+kKLH6+5YQ5iLcxpiHSJGatYdrF+hvE5x3tvdFVa48NdrVV8W/bCv8=);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Tunnel Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZRhbsMgDIVPw9+J4O4AE9vuQVN3QaUQAW2324/EidQkDUrLn0h+T3zYDysMZGhUi0zwhsEnE0Lw9EnljcrdUKrQYh1Juyqv1d4gOSF6d8KbPsSBoG2DXsfOhS/GP1iH5Axk7axNEO1smDh3foIpbdNZ/kuw4fq/oXp7p7pNN5wxoie9IpWJ783gqgQMMilr44Dcq/r0493FHh6206ouqoUx2md3xbs+Zwnw3Kgjwmi7jhAvIGCKqDYhauMCZp4l6YsoenUlP5BH5zET7FEbQ+uYufWp9F8ZOxv+NsS0iVn45c+3DTFrAoqbgPImyt9j9wzi8Y6O3uqq9ccWu9qr9LfthX8=);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Varicap"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rZRBbsMgEEVPw7bCkErdVrS9B3EmNQoBC2jS3r7YY0vBjpFNsrE0/4vH8BlMuPCNbIEw2hD+QRhjNH5iecVyN5TSt1AH1C7SKbnXgI4Pzp7gqg5hICjTgFOhc/knoe+kQ1LCRW2NiRBljU+cGz/CpDJxLf1F2LD931C9vGLdxh3OEMChXqFK2NdqcPUImIuoLB2Hi72sT9/O/pjD3XZa2UU1M0b7bC9w0+ckAZo76ojQyiwjWAGCp4hqFaLW1kPmWqI+i6JXF/Lj4mgdZII9Kq1xHDO7bkq/5NjZ8Nch0ibYWzoCBdfHthPSHiYD8PgIlTQxCeIJSTwhipKh2G1B3H8oo7c47/2y2YPpVfzl98I/);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Field-Effect Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(zZTdjsIgEIWfhltDIfXesOt7YB23RIQGUHffXsq0ibUWa/fGmyZzTvnmh2kJF76WDRBGa8K/CGOMxkcMrxiuu1D6BqqA2kU6JXca0PHB2SNc1T50BGVqcCq0Lv8mdENaJCVcVNaYCFHW+IFz50eYVCaepb8I69L/ddGqxLiJGU4QwKFeoErYdja4+A+Yi6hMtcPFTlbHH2fPZv+0nEa2oxoZvX2yF7ir82ECuU57glZmmrAEwYeIYhai0tbDy7eG3ZYP3S6otfzIdtPGjC4+qRPbwsXBOsis0UFpjR9fJutbu7ak7eyuzUNkV2BJFet3EM9vpvcmB5yOjW4oqfhHTcIN);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Gunn Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(zZTdjoMgEIWfhtsNQuz9hu2+B7XTlZSCAbbdvn2R0aRqpdbe7I3JzJFvfjhKuPC1bIAwWhP+RRhjND5ieMFw04XSN1AFzJ2lU3KnARUfnD3CRe1DR1CmBqdCq/ItoZ+kRVLCRWWNiRBljR8od3qESWXiWfqHsK78tYs+SoybWOEEARzmC8wS9r0YXLwD5iJm5sbhYier44+zv2b/sJ1GtquaCL18sme463O0gdykPUErM09Yg+BDRLEIUWnr4elbw2nL0bQrei3/5bjJMZOLT9kZt3BxsA4yNjoorfHjy1R9yWtrxs56bRli2MRo+e9f3zJE1odrVrF5BfHYHr02e8vp2MQmKYu/9ZS4AQ==);html=1;verticalAlign=top;align=left;spacingTop=10;spacing=0;spacingLeft=25;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Transorb"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZXhboMgFIWfhr+Lgo3dz4Vt70Ht7SSlYIC129sXRZNSlVhIjAnnyMe9RwiIUNOyDhAuWkQ+EcZV4V5ueAuHzHTQWK9dmebsIMA7xmp1hhs/2pHAZQua294lX6j4cN/0D6GNktJBuJImcB58B2NcurnFn4eNy/+Po7d654XOLXEBC9obpVcR/t5MLrPIhDplrSFCD6w5/2j1K4+L9XSsD2tmTPZFXeGh0DCDKZLlXieE4HIdUSUgSIggmxCNUAYi/8XpsygGdSU/Qk9KQyTYExfCb8jIqi+ln9J2NPxtiLCIp/BTtsATYtsWiFaRkkWVnwWusrPAdYAod/mI/euNlO8hok6oAocInI+IZrF8Yidv9eAN02Ynd1D97TMIdw==);html=1;verticalAlign=top;align=left;spacingTop=25;spacing=0;spacingLeft=35;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "LED"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZXdjoMgEIWfhttGwcbtZcPuvge100pKwQDb7r79omhS/CEWE2PCOfoxcxwiItTUrAGEsxqRT4RxkbmbWz7DJTMNVNZrD6Y5OwnwjrFa3eDJz7YncFmD5rZ1yRfKju6Z9iK0UlI6CFfSBM6L72CMS/du9uth/fZ//WpX7r3QuC3uYEF7I/cqwt+ryfkmMqFOWWqI0BOrbletfuR5tp6GtWFNjMG+qwe8FBpmMEQy3+uAEFwuI4oEBAkRZBWiEspA5Ls4fRJFpy7kR+hFaYgEe+FC+IGM7PpW+iltR8NfhwiLGIWfMgIjxLoRiFaRkkWxPQtcBoh8/34VuNgc5wiRfyQ0gkMEThitQ4gotyOicc6f2MFbPHjda5OT26n+79MJ/w==);html=1;verticalAlign=top;align=left;spacingTop=25;spacing=0;spacingLeft=35;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Photo-Diode"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"M\" style=\"verticalLabelPosition=middle;shadow=0;dashed=0;align=center;html=1;verticalAlign=middle;strokeWidth=1;shape=ellipse;aspect=fixed;fontSize=20;spacing=0;spacingBottom=2;direction=east;fillColor=none;points=[[0,0.5,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[1,0.5,0,0,0]];\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"5.684341886080802e-14\" width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Motor"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.multiplier;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-2.2737367544323206e-13\" width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Bulb"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.loudspeaker;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-2.2737367544323206e-13\" width=\"30\" height=\"50\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 29.999999999999996,
+    "h": 50,
+    "aspect": "fixed",
+    "title": "Speaker"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rZNvD4IgEMY/DW8bSeN9s/oeqFcyFRyS1rfvkGwy0/VH5tzuebwf3h0QFje5qIFENCfsQKKIU3xh2IWhaGpIrddaYaRISvBOY40uoJOZfRKkysFI61x2JHSP37iHxalWCiFSqyZwRj7ChFSYS28eRjfMLb/V3WtbH9W4SwUWTKCS6PQFnLv1O5zFqMyVxeJEpMXF6KvKplmz3lkbeGO8bFmWvuULxdbCDWNiDHalWxh1IaifLrVxAJRSjQCrE/hHiLAK/vdP7NYmLJfRn4KZQeGtnBtxnzY5I73qb3IvPAA=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"-2.2737367544323206e-13\" width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Dipole"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"-2.2737367544323206e-13\" width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Antenna"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.electro-mechanical.piezo_sounder;pointerEvents=1;fontSize=38;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"-2.2737367544323206e-13\" width=\"60\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Crystal"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.fuse_4;fontSize=20;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"-2.2737367544323206e-13\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Fuse"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"pointerEvents=1;verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.miscellaneous.surge_protector_2;strokeColor=default;fontSize=38;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-2.2737367544323206e-13\" y=\"-2.2737367544323206e-13\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Surge Protector"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.transmission.optical_fiber2;direction=east;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-2.2737367544323206e-13\" y=\"-2.2737367544323206e-13\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Optic Cable"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"TL\" style=\"group;align=center;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"100\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=38;endArrow=none;endFill=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"25\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"75\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"50\"/&gt;&lt;mxPoint x=\"50\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=38;endArrow=none;endFill=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"25\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"75\" y=\"20\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"50\" y=\"20\"/&gt;&lt;mxPoint x=\"50\" y=\"20\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=38;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"2\" target=\"9\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"24.967741935483843\" y=\"30\" as=\"targetPoint\"/&gt;&lt;mxPoint x=\"25\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"6\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=38;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;\" edge=\"1\" parent=\"2\" target=\"10\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"10.000000000000057\" y=\"9.9354838709678\" as=\"targetPoint\"/&gt;&lt;mxPoint x=\"30\" y=\"10\" as=\"sourcePoint\"/&gt;&lt;Array as=\"points\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"7\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=38;endArrow=none;endFill=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"2\" target=\"8\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"74.96774193548384\" y=\"30\" as=\"targetPoint\"/&gt;&lt;mxPoint x=\"75\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"8\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fontSize=38;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"72.5\" y=\"35\" width=\"5\" height=\"5\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"9\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fontSize=38;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"22.5\" y=\"35\" width=\"5\" height=\"5\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"10\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fontSize=38;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry y=\"7.5\" width=\"5\" height=\"5\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"11\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=default;fontSize=38;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"95\" y=\"7.5\" width=\"5\" height=\"5\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"12\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=38;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 1;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"30\" y=\"10\" as=\"targetPoint\"/&gt;&lt;mxPoint x=\"80\" y=\"10\" as=\"sourcePoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"70\" y=\"10\"/&gt;&lt;mxPoint x=\"70\" y=\"10\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"13\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=38;endArrow=none;endFill=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"80\" y=\"10\" as=\"targetPoint\"/&gt;&lt;mxPoint x=\"95\" y=\"10.110000000000014\" as=\"sourcePoint\"/&gt;&lt;Array as=\"points\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"14\" value=\"\" style=\"endArrow=none;html=1;fontSize=38;curved=1;dashed=1;dashPattern=1 1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"74\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"74\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"71\" y=\"20\"/&gt;&lt;mxPoint x=\"69\" y=\"10\"/&gt;&lt;mxPoint x=\"71\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"15\" value=\"\" style=\"endArrow=none;html=1;fontSize=38;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"75\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"75\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"78\" y=\"20\"/&gt;&lt;mxPoint x=\"80\" y=\"10\"/&gt;&lt;mxPoint x=\"78\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"16\" value=\"\" style=\"endArrow=none;html=1;fontSize=38;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"25\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"25\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"22\" y=\"20\"/&gt;&lt;mxPoint x=\"20\" y=\"10\"/&gt;&lt;mxPoint x=\"22\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"17\" value=\"\" style=\"endArrow=none;html=1;fontSize=38;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"26\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"26\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"29\" y=\"20\"/&gt;&lt;mxPoint x=\"31\" y=\"10\"/&gt;&lt;mxPoint x=\"29\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 100,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Transmission Line"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=10;startArrow=openThin;startFill=0;endArrow=openThin;endFill=0;curved=1;dashed=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"40\" as=\"sourcePoint\"/&gt;&lt;mxPoint as=\"targetPoint\"/&gt;&lt;Array as=\"points\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"V\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;labelBackgroundColor=none;\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry x=\"0.52\" y=\"-1\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"9\" y=\"10\" as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 0.6666666666666666,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Voltage"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontSize=10;startArrow=none;startFill=0;endArrow=openThin;endFill=0;curved=1;dashed=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"40\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"I\" style=\"edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;labelBackgroundColor=none;\" vertex=\"1\" connectable=\"0\" parent=\"2\"&gt;&lt;mxGeometry x=\"0.52\" y=\"-1\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"-13\" y=\"-11\" as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 0.6666666666666666,
+    "aspect": "fixed",
+    "title": "Current"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"I\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;curved=1;dashed=1;labelBackgroundColor=none;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"0.9\" y=\"-15\" width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"15\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"10\" y=\"30\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"5.684341886080802e-14\"/&gt;&lt;mxPoint x=\"30.000000000000057\"/&gt;&lt;mxPoint x=\"30.000000000000057\" y=\"30\"/&gt;&lt;/Array&gt;&lt;mxPoint as=\"offset\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 30,
+    "h": 30,
+    "aspect": "fixed",
+    "title": "Current Loop"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.rot_mech.field;pointerEvents=1;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60.00000000000001,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Field"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(nZPRDoIgFIafpQsuawRr67ZZPUEvQEbJJHCAWm/fQbRlirM2xzzn53xwfgDRxGas4IjgDNE9ImSNMYwQ118xswVPXUhWzAh2ljwo1hmd81pcXMsQKuNGOK/SA8I7mOM/mqRaKYAIrWxP+dABxoSCWvwIsHb5ZxutNiFG5DgbsZ6HoAlkYlukyZml+c3oUl2GVVHtqg0fETp5sVzCzwncVDdvJ2YwkWBduqL0DYA8VnYVUgbXJ5womD+PgdDJd13xqMtTHncAKVQU8L41vyC2fcZmFiKV2sZdGG/2r4X6e303OIvR3JHIecALjJ1kUza4QU02vNom8QI=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZPRDoIgFIafpQsuayS1dduonqAXIKI8i8CBWb19R9GWGWZrc87//PAh/wHCuE9FpkhCU8JWJEmmlOIb9fVNC58pmYdiIRyInVbB8bmzJ3WFfV4zwKTKQV66bE3oEseUD+PSGoMQsMa3nBcfYQIMzqW3AKuXv9dqMg+aJJvBiOkwBONYif0i4zshT0dnL2bfnRX1DtapD0Zjj8Zj/NhimuZYxklRfxp3AK1DzD1bz0TZgI7R2GdbqGisfaE2AA0mCngek18QizZjPgghtfV9KWA9EgSe9W8Rhn5wcPLvbiitIfPx3c7a96zJM23LGD26fBVA59RV1XDTq8ID);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"AND\" style=\"shape=stencil(rZRRb4MgEMc/yx547KJcNN3j5rbvQZFOUgcGbGu//U6RpaI0nV1iFO7P/bg7TggUtmKNIDSpCLwTStMkwTfOz8Gc2Ubw1hlPzEi2q4VTbGv0QZxl2Y4MqSphZNur8EGSV1zTP1BwrRRCpFZ2olzpCGNSoW/SOdi4/WWcPad57iyEfq6GAMDjkMyX5hFI/h/pbNekk4bpLCOgQEvs4KDYMX74MvqoyrlXVNtrIxYELz9tNjh40+UFPzheWrOXde0a70baDetbciZ4+VufRLSotwrqAbVUV4BsBYEfjYshdU4vnpFOIB0NZBr8nR0EMUCw4C+JTPO4E8FrbeNnsVzy7XSnbEWsv9HdxRjaMtIVeBXG+mlwmzXtYHXX52D4AQ==);whiteSpace=wrap;html=1;fontSize=10;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 60,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"OR\" style=\"shape=stencil(vZXdcoMgEIWfpRdcpgNsY71tbfseREllYsFBk5i3L0qwgj+1yUxnHJU98rlnYRVBUuWs5IjiHMEbopRgbM5mfA7GrCp5WtvgiWnBdgW3SlVrdeBnkdVXhpA516JuVXhH+MU80x6QpEpKAxFKVp4y0A2MCWnm4sbC8CMhkX3RpY9E1wiiH38BPeEABAA3gbYhaOvKdG9G0Y3WRjWKb7FGQlvTCEhMZG4xIdmx9PCp1VFm41mz2l5pPiE4+WGzMTevKruYi7mfemYvisJuxgXbJWu36Uhw8pc68UFh/XosFdQBCiEHgHCjrCGkR21zIHbSs2MQD9JQO4ydTP1XNhDo4OvLSdxdh9AFXXZBAxf9d8fZCFyQ5YZbtRorGb+tx0+q/7gisW9lHcKvRp/3KkbXvTPNY/4ic23XTRv1dhe1f54u8A0=);whiteSpace=wrap;html=1;fontSize=10;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 60,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"XOR\" style=\"shape=stencil(vZXdcoIwEIWfpRe5tJOfQrltafseEWLJSBMmoOLbNxCDJkBU6nSGEbKHfOxZ1gWQtC5oxQCGBSAfAGMEof7V64O3pnXFssYE91Rxui6ZUepGyS078Lw5MbgomOJNp5JPAN/0Pd1B0kwKoSFcitpRLnQNo1zovbA1MPiMUGwedBwi8SkC8Nc9oBfogQghi0CRD4psmf6aUbzQ2qhGyRJryLc1jSCpjsy9TJKuabb9VnIn8vGuWW0jFZsQrPy0WumLd5kf9UlfT92z4WVpmjFgu6Jdm44EK//IPTvXI3LrESqoBZRcXALg/YRsp0wOyGx6tQzkQFpslomVsfvIlng6cfVwEm4dHuACh11gz8Uwd6wNzwUK/+Ee9jpHNqKwjeiKjWiRjWBT3ci41lbnVP+xsRLXym0ItxpD3jcx+iE0MwP0x3BuevTbRiOqj5oPaB/4BQ==);whiteSpace=wrap;html=1;fontSize=10;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 60,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"NAND\" style=\"shape=stencil(rVTBcoMgEP2WHjimo9I46bG17X8QJJUJBQdMYv6+q8iMoNhWO+Mou4998HbXRbgwFakZypIK4TeUZWmSwBvsW2ATUzPaWOeVaE6OglnENFqd2Y2XzcDBZcU0bzoUv6PkBfZ0Dy6okhJIuJLGQ0Y4kBEuITZpLdlw/H2wHtM8tx6UfawmwRhvJ9m71Gwhyf9DzmGNnDSUM0+BC/DECoeLI6HnT60uspxGRbGT0mwGcPDDbgeLV1Xe4QPruT0nLoRtvAXZNelacgI4+EtdWTSpSwl1BILLEcF+BQO9aHuH1AY9O47UI2mzAM6Cv7PFwR1wsOEvQnwdv6SgQpmlWoA/Ug6YQT8V0nZEwTXths6mnmBC8NqM1B58uU/+/HPJqHwzxh49vk/ApO97r53AveMb);whiteSpace=wrap;html=1;fontSize=10;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 60,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"NOR\" style=\"shape=stencil(tVXbcoMgFPyWPvCYDpfG+tra9j+IksqEgoMmmr8vSkgFL7FmMuOonJWF3XM4ApKUOS0YwDAH5ANgjCA0dzOugzEtC5ZWNniimtOdYBYpK60OrOZZdeHgMmeaVy1KPgF8M9+0F0lSJaUh4UqWHtLDDRnl0syFjSWDzwhFdqHzNRJdIgB//YfoBQZEhJBVRNuQaOtsundH0UppA4/iNdJQKGucgiQmMpVMkuxoevjW6iiz4axJbK80GwEc/LTZmJd3lZ3Nw7yPfbPnQthinJFd0LZMB4CDf9SJ9Yz1/Zgz1BEILnsEYaEsYUiP2u4B2UmvjgN5JA22w9jB2F+yIQFOfHx+E3f7EKrA8ypwoOLad5yMQAWaP3CLsrGQ41Y+/rb6kIx0x2aiak37vlXv9uAkXKdtv77r6DAheFH2/Ix9P10zq/2U5v5win1y+c6AQXvoovbn1QV+AQ==);whiteSpace=wrap;html=1;fontSize=10;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 60,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"XNOR\" style=\"shape=stencil(tVXbcoMgFPyWPviYDpdqfW1t+x9ESWViwUETzd8XJSSCio1JZxyFs7Cw6zkQ4KTKSUkDBPIAfwQIQQDUW/Ubp0+qkqa1Dh6JZGRbUI1UtRR72rCsPnMwnlPJ6g7FnwF4U2O6Byep4FyRMMErCxngiowwruaCVpOBZwgjvdDpEonOkQB93UL0AhwijPEqotAlCo1N9+4oWilt5FG8Rhp0ZU1T4ERF5n4mTrYk3X9LceDZeNYsthOSTgAGftpsVONdZCf1Ue2pMTtWFDoZPbJL0qXpCDDwjzjSqx+h7YfPUENQMD4kALczpAep9wD1pFfDAS2SFulubGBkL9liB8c27t+E7cMDVCC/CuSouJw7RoajAvoL7mG/cyQj9MsIF2SEq2R4k+qPHEtpdd3qvyRWX/0zxaduoaWy1fWfMJl2185dJwAtClZWAz9j209zJjd2ZuZ2d459dvnegNEp10f1HdwHfgE=);whiteSpace=wrap;html=1;fontSize=10;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 60,
+    "aspect": "fixed"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.synchronous_rs_latch;fillStyle=auto;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"2.2737367544323206e-13\" width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Latch"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.d_type_rs_flip-flop;fillStyle=auto;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "D-Flip-Flop"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.jk_flip-flop_with_sr;fillStyle=auto;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "JK-Flip-Flop"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.t_type_flip-flop;fillStyle=auto;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "T-Flip-Flop"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"IC\" style=\"shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.logic_gates.dual_inline_ic;labelNames=a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t;fillStyle=auto;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" height=\"80\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Generic IC"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"IC\" style=\"shadow=0;dashed=0;align=center;html=1;strokeWidth=1;shape=mxgraph.electrical.logic_gates.qfp_ic;labelNames=a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,a1,b1,c1,d1,e1,f1,g1,h1,i1,j1,k1,l1,m1,n1;fillStyle=auto;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"100\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 100,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "Generic IC"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"MUX\" style=\"shape=stencil(rZPhDoIgFIWfhr8NYc3+Nqv3QKVkEjggrbfvKupKw5Vrc2z3HM6H3iuIJrZgFUcEF4geECERxrBC3UxqZiueOS/WzAiWSu4d64wueSNy1zOEKrgRrnXpEeE97GkfmmRaKYAIreyb8+IDjAkFWXz3sP74R19tyNYLiJxWM+IVjGjCWPMaQ2iE7AIUmoAS6hZNUpaVF6NvKp+ngt5ZG/7BGG0hpZ/kwldVrJ3xzBjsq655sOtL/RoAUqggYPwTf0GMoR4S/4FBv2JkUtulVoIe6CbcydAcuthskJ3q73EnPAE=);whiteSpace=wrap;html=1;flipV=1;fontSize=8;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "MUX 2-bit"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"MUX\" style=\"shape=stencil(rZXhbsIgEMefhq+Gcpu6j6Zz74EVVyKDBjqdb++1tHWz0swCaZrc/Xs/esflIJC7kleCMFoSeCeMZZTiG+3znc1dJYraO0/cSr5TwiuutuYoznJfdwypS2Fl3aiwJXSD3zQP5IXRGiHSaPdH+aUjjEuNsfTHw7rtL521yLxN2MdsBItHQDziJR7xGo9YxiNW8Yh1POLteUSWoJwLwJWgRfvNb5BZf7PElaDbH2U1o8DjrNapsgp0DOToCY0ZyHe8OH5a863346igdjBWPBAGWSrlR+BEXhVvhuNI6OUvcxLB1p6qWA9QUgcBwwh/BjEEdZBVAgb8i1Eo46ZKif5ANfEyC51DGzY6yNbrL8DWcQU=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"60\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "MUX"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"DEMUX\" style=\"shape=stencil(rZXhbsIgEMefhq+Gcpu6j6Zz74EVVyKDBjqdb++1tHWz0swCaZrc/Xs/esflIJC7kleCMFoSeCeMZZTiG+3znc1dJYraO0/cSr5TwiuutuYoznJfdwypS2Fl3aiwJXSD3zQP5IXRGiHSaPdH+aUjjEuNsfTHw7rtL521yLxN2MdsBItHQDziJR7xGo9YxiNW8Yh1POLteUSWoJwLwJWgRfvNb5BZf7PElaDbH2U1o8DjrNapsgp0DOToCY0ZyHe8OH5a863346igdjBWPBAGWSrlR+BEXhVvhuNI6OUvcxLB1p6qWA9QUgcBwwh/BjEEdZBVAgb8i1Eo46ZKif5ANfEyC51DGzY6yNbrL8DWcQU=);whiteSpace=wrap;html=1;direction=west;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"2.2737367544323206e-13\" width=\"60\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 60,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "DEMUX"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"ALU\" style=\"shape=stencil(rZTvDoIgFMWfhq8OIZt9bFbvQUrJInBg/96+q5RTzFbU5tzuOd6fXDmCaGZLVnFEcInoChESYwx3qC9ezWzF89qJZ2YE20ruHFsbfeAXUdQPhlAlN6JuXLpGeAnPNBfNcq0UQIRWduD0fIAxoaAXXx0MR8S95vaoXYXI5gtE+jsiGSDiEAT2lhHNQiix9z2ieQhl4UGS1xCagTK1bTTbsvywN/qkinHXpLfThr8wOltI6SL1ZqiKNWEbGU/7qM+8N+3nu/8ESKF6AI/Q/RPfMNI/MLqm8FHmPxOSIYEGIGYBi8iltu8SAfpEKOCMm4pT2zbKY6u6c7EV7g==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"100\" height=\"60\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 100,
+    "h": 60,
+    "aspect": "fixed",
+    "title": "ALU"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rZTvboMgFMWfhq8LStvsa+O296D2bt6UAgH67+2Hoo1ocRtdYkzuPfK7BziRsMo2XAMpaUPYGynLglL/9vVlUnOroXaheeYG+U5AUKwz6gAX3LuegbIBg65V2TuhW/9N+7CqVlJ6CCppI2WkexhH6dfSa4DRl3UYc+vrUGk/4QgOTG8zdEn5kQ0u/g0c+x3GPA8ungGzyndSF8CqHa8PX0ad5H6+Kql9KgMPhLuMQoRwLGwUhEBtIXl8j9M4TWuK/uP4X3nUvI32TBjkozqP/BfxBtaLDgeEQDlCsBxE7GJyjKsMFxPEJsPFKka8ZrjY/AXRxTVxWwth6JbNwtx1w++xa3wD);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Sum"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.summation_point;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Sum"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.sum;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Sum"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.multiplier;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Product"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.integrator;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Integral"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.delta;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Delta"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"fn\" style=\"shape=mxgraph.electrical.abstract.function;html=1;shadow=0;dashed=0;align=center;strokeWidth=1;fontSize=24;fontStyle=0;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Generic Function"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"Z&amp;lt;sup&amp;gt;-1&amp;lt;/sup&amp;gt;\" style=\"whiteSpace=wrap;html=1;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Delay"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.filter;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"-5.684341886080802e-14\" width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Generic Filter"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.highpass_filter;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Highpass"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.lowpass_filter;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Lowpass"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.bandpass_filter;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Bandpass"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.quantizer;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Quantizer"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"260\" height=\"100\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.summation_point;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"79.99999999999999\" y=\"40\" width=\"19.999999999999996\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=38;entryPerimeter=0;\" edge=\"1\" parent=\"2\" source=\"5\" target=\"3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"A\" style=\"whiteSpace=wrap;html=1;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"119.99999999999999\" y=\"80\" width=\"19.999999999999996\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"6\" style=\"edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=38;rounded=0;\" edge=\"1\" parent=\"2\" source=\"8\" target=\"3\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"7\" style=\"edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=38;rounded=0;\" edge=\"1\" parent=\"2\" target=\"10\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"19.999999999999996\" y=\"50\" as=\"sourcePoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"19.999999999999996\" y=\"10\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"8\" value=\"B\" style=\"whiteSpace=wrap;html=1;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"39.99999999999999\" y=\"40\" width=\"19.999999999999996\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"9\" value=\"C\" style=\"whiteSpace=wrap;html=1;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"180\" y=\"40\" width=\"19.999999999999996\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"10\" value=\"D\" style=\"whiteSpace=wrap;html=1;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"119.99999999999999\" width=\"19.999999999999996\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"11\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=38;\" edge=\"1\" parent=\"2\" source=\"13\" target=\"9\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"12\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=38;\" edge=\"1\" parent=\"2\" source=\"13\" target=\"5\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"159.99999999999997\" y=\"50\"/&gt;&lt;mxPoint x=\"159.99999999999997\" y=\"90\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"13\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.integrator;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"119.99999999999999\" y=\"40\" width=\"19.999999999999996\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"14\" style=\"edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=38;rounded=0;\" edge=\"1\" parent=\"2\" source=\"3\" target=\"13\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"15\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=38;\" edge=\"1\" parent=\"2\" source=\"16\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"260\" y=\"50\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"16\" value=\"\" style=\"verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.summation_point;fillColor=none;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"219.99999999999997\" y=\"40\" width=\"19.999999999999996\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"17\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=38;\" edge=\"1\" parent=\"2\" source=\"9\" target=\"16\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"18\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=38;\" edge=\"1\" parent=\"2\" source=\"10\" target=\"16\"&gt;&lt;mxGeometry relative=\"1\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"19\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=38;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"49.775000000000006\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"39.99999999999999\" y=\"49.775000000000006\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 260,
+    "h": 100,
+    "aspect": "fixed",
+    "title": "State-Space Controller"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"160\" height=\"160\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"endArrow=classic;startArrow=classic;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"30\" y=\"160\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"30\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"endArrow=classic;startArrow=classic;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"130\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" y=\"130\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"endArrow=none;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"110\" y=\"140\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"110\" y=\"120\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 160,
+    "aspect": "fixed",
+    "title": "Graph"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"20\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"endArrow=none;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"4\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"6\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"10\" y=\"20\"/&gt;&lt;mxPoint/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"endArrow=none;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"14\" y=\"20\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"16\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"20\" y=\"20\"/&gt;&lt;mxPoint x=\"10\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"endArrow=none;html=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"10\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"5\" y=\"10\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"6\" value=\"\" style=\"endArrow=none;html=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"15\" y=\"10\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"20\" y=\"10\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 20,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Discontinuity"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"10\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"endArrow=none;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"10\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"10\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"endArrow=none;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"10\" y=\"10\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 10,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Pole"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"5.684341886080802e-14\" width=\"10\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 10,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Zero"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeWidth=2;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"40\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"endArrow=none;dashed=1;html=1;dashPattern=1 1;strokeWidth=2;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"40\" y=\"40\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"40\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"endArrow=classic;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"40\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"40\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Vector"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=baseDash;startArrow=baseDash;html=1;curved=1;startFill=0;endFill=0;dashed=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"40\" as=\"targetPoint\"/&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 0.425531914893617,
+    "aspect": "fixed",
+    "title": "Length"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"endArrow=openThin;html=1;curved=1;endFill=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;rounded=0;\" edge=\"1\" parent=\"2\" source=\"4\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"20\" y=\"10\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"-10\" y=\"30\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint y=\"10\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"This\" style=\"text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;\" vertex=\"1\" parent=\"2\"&gt;&lt;mxGeometry x=\"10\" width=\"30\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Attention"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"$$label$$\" style=\"text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"5.684341886080802e-14\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "LaTeX Label"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"Text\" style=\"text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=10;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry y=\"5.684341886080802e-14\" width=\"40\" height=\"20\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 20,
+    "aspect": "fixed",
+    "title": "Label"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;curved=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"39.89999999999998\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"160\" y=\"40\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"20\"/&gt;&lt;mxPoint x=\"60\" y=\"80\"/&gt;&lt;mxPoint x=\"100\"/&gt;&lt;mxPoint x=\"140\" y=\"80\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 160,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Sinusoid"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"group\" vertex=\"1\" connectable=\"0\" parent=\"1\"&gt;&lt;mxGeometry width=\"140\" height=\"40\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;mxCell id=\"3\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"-20\" y=\"40\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"20\" y=\"40\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"4\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"60\" y=\"40\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"100\" y=\"40\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"80\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"5\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"20\" y=\"40\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"60\" y=\"40\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"40\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;mxCell id=\"6\" value=\"\" style=\"edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;endArrow=none;endFill=0;curved=1;rounded=0;\" edge=\"1\" parent=\"2\"&gt;&lt;mxGeometry width=\"80\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint x=\"100\" y=\"40\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"140\" y=\"40\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"120\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 140,
+    "h": 40,
+    "aspect": "fixed",
+    "title": "Rectified Sinusoid"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(rZNNDsIgEIVPM3sCxnRrqr0HbdGSIhCKrd5efloTbVlIuiGZ95gvA3kDpBw6qhlg1AE5A8YYucOVUyyLuaSDZo2N2kgNp7Vg0RmsUT2beGtnApcdM9x6l1wAncAjEZCypk1/M+oh2x8DcJX0rsqwDeNjcyHiBEGqNi9p6mdbGYt9V6Pvfsbx5we/vr9jG70QBJdJQgZgd0IO4rA7IoNw3JuQgyj+QYQ0JwLnli0V1dC2ynpQ44IG4Q0=);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Square Wave"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=stencil(pZNNDoMgEIVPM3sCjXHb2HoPVFqIVAxSbW9ffrRpFRctG5KZB1/ewANIMXDaM8CIAzkBxhjZxZZTKPO5pEPPahN6I9WCVpIFZTBatWwSjZkJouNMC+NUcgZ0BIdEQIqK1u1Vq3vXrATA5a52UZpFhLcspAwOfKuMbuqp87YRFvmmRnf6EezPAz+/ryOOXghSdB+EFSKd8A/ikI7IkufI0k3kvyB8lHZe2yZ9Lyf+2CZovht+h2+8AA==);whiteSpace=wrap;html=1;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"40\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Sawtooth Wave"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=none;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"80\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"40\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"40\" y=\"80\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 40,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Exponential"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"endArrow=none;html=1;curved=1;rounded=0;\" edge=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"50\" height=\"50\" relative=\"1\" as=\"geometry\"&gt;&lt;mxPoint y=\"80\" as=\"sourcePoint\"/&gt;&lt;mxPoint x=\"80\" as=\"targetPoint\"/&gt;&lt;Array as=\"points\"&gt;&lt;mxPoint x=\"40\" y=\"80\"/&gt;&lt;mxPoint x=\"40\"/&gt;&lt;/Array&gt;&lt;/mxGeometry&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 80,
+    "h": 80,
+    "aspect": "fixed",
+    "title": "Sigmoid Curve"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"\" style=\"shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=-90;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"-5.684341886080802e-14\" width=\"10.09\" height=\"40.15\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 10.09,
+    "h": 40.15,
+    "aspect": "fixed",
+    "title": "Brace"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"+\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry width=\"10\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 10,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Positive Charge"
+  },
+  {
+    "xml": "&lt;mxGraphModel&gt;&lt;root&gt;&lt;mxCell id=\"0\"/&gt;&lt;mxCell id=\"1\" parent=\"0\"/&gt;&lt;mxCell id=\"2\" value=\"-\" style=\"ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=none;\" vertex=\"1\" parent=\"1\"&gt;&lt;mxGeometry x=\"8.526512829121202e-14\" width=\"10\" height=\"10\" as=\"geometry\"/&gt;&lt;/mxCell&gt;&lt;/root&gt;&lt;/mxGraphModel&gt;",
+    "w": 10,
+    "h": 10,
+    "aspect": "fixed",
+    "title": "Negative Charge"
+  }
+]</mxlibrary>
