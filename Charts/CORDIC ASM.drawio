@@ -1,0 +1,109 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="idzGXTkh9R11nrOlfFmn">
+    <mxGraphModel dx="643" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-3" value="i = 0&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;α = 0 /&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;α = w_&lt;/b&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;α&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-4" value="i &amp;lt; 16" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-5" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-4" target="4q17OMFUG6_ARWmdLW-r-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="430" as="sourcePoint" />
+            <mxPoint x="360" y="450.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-6" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;x&lt;/span&gt;&lt;font style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 6px;&quot;&gt;temp&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;← x&lt;/span&gt;&lt;/div&gt;&lt;div&gt;y&lt;font style=&quot;font-size: 6px;&quot;&gt;temp&lt;/font&gt;&amp;nbsp;← y&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-7" value="xtemp &amp;gt;&amp;gt; i&lt;div&gt;ytemp &amp;gt;&amp;gt; i&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-8" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; white-space: normal; background-color: rgb(16, 18, 24);&quot;&gt;α &amp;gt;=&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;white-space: normal; color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;θ&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;b style=&quot;white-space: normal; color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;y&amp;lt;0&lt;/b&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-9" value="x&lt;font style=&quot;font-size: 6px;&quot;&gt;temp&lt;/font&gt; = x - y&lt;span style=&quot;font-size: 6px;&quot;&gt;temp&lt;/span&gt;&lt;div&gt;y&lt;span style=&quot;font-size: 6px;&quot;&gt;temp&lt;/span&gt;&amp;nbsp;= y + x&lt;span style=&quot;font-size: 6px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;θ =&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;θ + arctan(2^-i)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-10" value="x&lt;span style=&quot;font-size: 6px;&quot;&gt;temp&lt;/span&gt;&amp;nbsp;= x + y&lt;span style=&quot;font-size: 6px;&quot;&gt;temp&lt;/span&gt;&lt;div&gt;y&lt;span style=&quot;font-size: 6px;&quot;&gt;temp&lt;/span&gt;&amp;nbsp;= y - x&lt;span style=&quot;font-size: 6px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;temp&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;θ =&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;θ - arctan(2^-i)&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-11" value="x = xtemp&lt;div&gt;y = yemp&lt;/div&gt;&lt;div&gt;i = i + 1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-3" target="4q17OMFUG6_ARWmdLW-r-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="300.71067811865476" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-6" target="4q17OMFUG6_ARWmdLW-r-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="570" as="sourcePoint" />
+            <mxPoint x="360" y="590.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-17" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-7" target="4q17OMFUG6_ARWmdLW-r-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="700" as="sourcePoint" />
+            <mxPoint x="360" y="720.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-8" target="4q17OMFUG6_ARWmdLW-r-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="249.28932188134524" y="810" as="sourcePoint" />
+            <mxPoint x="249.28932188134524" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="240" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-8" target="4q17OMFUG6_ARWmdLW-r-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="470.71067811865476" y="760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-9" target="4q17OMFUG6_ARWmdLW-r-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="940" as="sourcePoint" />
+            <mxPoint x="260" y="960.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-10" target="4q17OMFUG6_ARWmdLW-r-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="940" as="sourcePoint" />
+            <mxPoint x="460" y="960.7106781186548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="1080" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="110" y="990" />
+              <mxPoint x="80" y="990" />
+              <mxPoint x="80" y="280" />
+              <mxPoint x="200" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-24" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="4q17OMFUG6_ARWmdLW-r-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="390" as="sourcePoint" />
+            <mxPoint x="510" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4q17OMFUG6_ARWmdLW-r-25" value="output&lt;div&gt;x, y,&amp;nbsp;&lt;b style=&quot;font-size: 11px; color: rgb(236, 236, 236); font-family: &amp;quot;Google Sans&amp;quot;, Arial, sans-serif; text-align: start; background-color: rgb(16, 18, 24);&quot;&gt;θ&amp;nbsp;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
