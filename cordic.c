@@ -7,13 +7,13 @@
 // A = sqrt(x^2 + y^2)
 // θ = atan(y/x)
 
-// Because we factor the Amplitude to 1, then the change in rotation would be
+// Becaus) e we factor the Amplitude to 1, then the change in rotation would be
 // cos(θ+α) = cos(θ)⋅cos(α) − sin(θ)⋅sin(α)
 // sin(θ+α) = sin(θ)⋅cos(α) + cos(θ)⋅sin(α)
 
 // Apply the Polar Coordinate System, we got the 2D General Rotation Formula
 // cos(θ+α) = x⋅cos(α) − y⋅sin(α)
-// sin(θ+α) = y⋅cos(α) + x⋅sin(α)
+// sin(θ+α= y⋅cos(α) + x⋅sin(α)
 
 // Simplify by factoring the equations with cos(α)
 // cos(θ+α) = (x − y⋅tan(α)) * cos(α)
@@ -92,86 +92,17 @@
 
 // For all the optimization we only need 2 multiplication for the entire process that is the scaling factor
 
+// r2 = x2 + y2
+// x  = sqrt r2-y2
+
 #include <math.h>
 #include <stdio.h>
+#include <conio.h>
+#include "render.h"
+#include "datatype.h"
+#include "file_io.h"
 
-
-
-typedef struct coord_lf {
-    double x;
-    double y;
-} coord_lf;
-
-typedef struct coord_b {
-    long long x;
-    long long y;
-} coord_b;
-
-typedef struct polar {
-    double r;
-    double a;
-} polar;
-
-typedef struct vec_2d {
-    double x;
-    double y;
-
-    double r;
-    double a;
-} vec_2d;
-
-#define INTEGER_WIDTH 2
-#define DECIMAL_WIDTH(int_width, type) ((sizeof(type) * 8) - int_width)
-
-typedef union fp{
-    long val;
-    struct {
-#   if (32 - INTEGER_WIDTH) > 0
-        unsigned long decimal : DECIMAL_WIDTH(INTEGER_WIDTH, long);
-        unsigned long integer : INTEGER_WIDTH;
-#   else
-        unsigned long decimal : 31;
-        unsigned long integer : 1;
-#   endif
-    };
-} fp;
-
-typedef union lfp{
-    long long val;
-    struct {
-#   if (64 - INTEGER_WIDTH) > 0
-        unsigned long long decimal : DECIMAL_WIDTH(INTEGER_WIDTH, long long);
-        long long integer : INTEGER_WIDTH;
-
-#   else
-        unsigned long long decimal : 63;
-        unsigned long long integer : 1;
-#   endif
-    };
-    
-} lfp;
-
-typedef union lf_fmt {
-    double val;
-    struct {
-        unsigned long long M : 52;
-        unsigned long long e : 11;
-        unsigned long long sgn : 1;
-    };
-} lf_fmt;
-
-typedef char state_in;
-
-typedef struct FPGA_IN {
-    double y_1;
-    double y_2;
-    state_in mode;
-} FPGA_IN;
-
-typedef struct FPGA_OUT {
-    double y_1;
-    double y_2;
-} FPGA_OUT;
+#define HALT_KEY(msg)  {printf("%s", msg); getch();}
 
 
 
@@ -193,7 +124,7 @@ double _angles[ITERATION] = {
 
 
 vec_2d GRF(coord_lf p, double a);
-vec_2d CORDIC(coord_lf p, double a, int mode);
+vec_2d CORDIC(coord_lf p, coord_lf target, double a, int mode);
 long long lf2fp(double val, int dec_width);
 double fp2lf(register long long val, int dec_width);
 double func(double A, double w, double t);
@@ -203,8 +134,10 @@ double func(double A, double w, double t);
 #define TARGET DEG_RAD(45)
 #define ROTATION_MODE   0
 #define VECTORING_MODE  1
+#define NEGATIVE        0x2     // Negative slope / derivative
+#define CONJUNGATE      0x4     // Conjugate Technique
 
-#define ITERATION_2 1
+#define ITERATION_2 2
 
 #define NANOSECOND  0.000000001
 #define CLOCK_H     (5 * NANOSECOND)          // Nanosecond
@@ -219,30 +152,45 @@ fp y_2[NUM_OF_SAMPLE] = { 0 };
 FPGA_OUT FPGA(FPGA_IN input);
 
 int main(){
-
-
-
-
-    
     // double signal1 = A * sin((w*t) + phase_diff);
     
     
     double val = 0.5;
     lfp a = {0};
+
     
-    coord_lf init = {1,0};
-    for (double angle = 0; angle < 120 ; angle += 5) {
+    coord_lf init = {pow(K, ITERATION_2) ,0};
+    coord_lf target;
+    FILE* fptr = fopen_h("result cordic.csv", FMD_RAPPEND);
+    
+    
+    
+    for (double angle = 0; angle < 361  ; angle +=0.5) {
+        double target_theta = DEG_RAD(angle);
+        target = (coord_lf) {0, sin(target_theta)};
         
-        vec_2d a = GRF   (init, DEG_RAD(angle));
-        vec_2d b = CORDIC(init, DEG_RAD(angle), VECTORING_MODE);
+        vec_2d a = GRF   (init, 0);
+        vec_2d b = CORDIC(init, target, DEG_RAD(60), VECTORING_MODE | ((cos(target_theta) < 0) ? (CONJUNGATE | NEGATIVE) : 0));
         printf("[%3.2lf] x: %lf %lf (%lf)\n"  , RAD_DEG(a.a), a.x, b.x, b.x - a.x);
-        printf("[%3.2lf] y: %lf %lf (%lf)\n\n", RAD_DEG(b.a), a.y, b.y, b.y - a.y);
+        printf("[%3.2lf] y: %lf %lf (%lf)\n", RAD_DEG(b.a), a.y, b.y, b.y - a.y);
         printf("[%3.2lf] r: %lf %lf (%lf)\n\n", RAD_DEG(b.a), a.r, b.r, b.r - a.r);
-        // printf("[%3.2lf] y: %lf %lf (%lf)\n\n", RAD_DEG(b.a), a.y, b.y, b.y - a.y);
+        printf("[%3.2lf] y: %lf %lf (%lf)\n\n", RAD_DEG(b.a), a.y, b.y, b.y - a.y);
+
         
     }
 
-    printf("%llx\n" , lf2fp(1, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))));    
+    double o = 0;
+    for (int i = 0; i < 16; i++) {
+        o += _angles[i];
+    }
+    
+    printf("O: %lf", RAD_DEG(o));
+    printf("%llx\n" , lf2fp(1, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))));   
+    
+    // scr_buf buffer = get_screen_buffer(128, 64);
+    // _graph_background(buffer, 2, '.');
+    // _render(buffer, 0);
+
 }
 
 
@@ -305,12 +253,15 @@ vec_2d GRF(coord_lf p, double a) {
 }
 
 // CORDIC Algorithm
-vec_2d CORDIC(coord_lf p, double a, int mode) {
+vec_2d CORDIC(coord_lf p, coord_lf target, double a, int mode) {
     double theta = 0;
     int n = 0;
     
     coord_b p_0 = {lf2fp(p.x, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))), lf2fp(p.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)))};
+    coord_b target_b = {lf2fp(target.x, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))), lf2fp(target.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)))};
     coord_b p_1 = {0};
+
+    coord_lf temp_result[(ITERATION * ITERATION_2) + 2] = {0};
 
     // vectoring mode range adjustments, since the range [90, -90], which is only in positive x-axis (+x)
     // if ((mode == VECTORING_MODE) && (p_0.x < 0)) {
@@ -318,35 +269,81 @@ vec_2d CORDIC(coord_lf p, double a, int mode) {
     //     theta -= DEG_RAD(180);
     // }
 
+    printf("[init] deg: %-6.2lf   x: %-10lf   y: %-10lf  y_target: %lf\n\n", RAD_DEG(theta), 
+    fp2lf(p_0.x, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))), 
+    fp2lf(p_0.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))),
+    fp2lf(target_b.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)))
+    );
+
+    temp_result[0] = p;
+    int A,B,C;
+
+    int temp_i = 1;
     for (int i = 0; i < ITERATION; ) {
-        if((mode == ROTATION_MODE) ? (a >= theta) : (p_0.y < 0)) {
+        A = (p_0.x < 0);
+        B = (p_0.y < 0);
+        C = (p_0.y < target_b.y);
+
+        // In vectoring mode, we try to keep the range between [-90, 90]
+        // and mirror (conjugate) the real part (x), based from the derivative
+        // Hence the logic is f(A,B,C) = (AB) + (C ~A); Where {true = +α, false = -α}
+        if( ((mode & VECTORING_MODE) ? ((A && B) || (C && !A)) : (theta <= a))) {
             p_1.x = p_0.x - (p_0.y >> i);
             p_1.y = p_0.y + (p_0.x >> i);
+        
+            // target_b.y -= lf2fp(pow(2, -i-1), DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)));
             theta += _angles[i];
+
         }
         else {
             p_1.x = p_0.x + (p_0.y >> i);
             p_1.y = p_0.y - (p_0.x >> i);
+
+            // target_b.y += lf2fp(pow(2, -i-1), DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)));
             theta -= _angles[i];
         }
         p_0.x = p_1.x;
         p_0.y = p_1.y;
 
-        
+        p.x = fp2lf(p_0.x, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)));
+        p.y = fp2lf(p_0.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)));
+        target.y = fp2lf(target_b.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)));
+
+        HALT_KEY("");
+        printf("[%2d] deg: %-6.2lf   x: %-10lf   y: %-10lf  y_target: %lf\n", i, RAD_DEG(theta), p.x, p.y, target.y);
+        temp_result[temp_i++] = p;
+
         if(n >= (ITERATION_2 - 1)) { i++; n = 0;}
         else n++;
 
-        // printf("[%2d] deg: %.2lf   %lf   %lf\n", i, RAD_DEG(theta), 
-        //                                         fp2lf(p_0.x, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))), 
-        //                                         fp2lf(p_0.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long)))
-        // );
     }
+    
+    // TECHNIQUE 2: REAL CONJUNGATE
+    if (FLAG_CHECK(mode, CONJUNGATE | NEGATIVE)) {
+        p_0.x = -p_0.x;
+        p.x = -p.x;
+        theta = M_PI - theta;
+    }
+    temp_result[temp_i] = p;
+    printf("[%2d] deg: %-6.2lf   x: %-10lf   y: %-10lf  y_target: %lf\n", 99, RAD_DEG(theta), p.x, p.y, target.y);
 
     vec_2d retval = { 0 };
-    retval.x = fp2lf(p_0.x, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))) * pow(K, ITERATION_2);
-    retval.y = fp2lf(p_0.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))) * pow(K, ITERATION_2);
-    retval.a = -theta;
+    retval.x = fp2lf(p_0.x, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))) /* * pow(K, ITERATION_2) */;
+    retval.y = fp2lf(p_0.y, DECIMAL_WIDTH(INTEGER_WIDTH, sizeof(long long))) /* * pow(K, ITERATION_2) */;
+    retval.a = theta;
     retval.r = (mode == VECTORING_MODE) ? retval.x : sqrt((retval.x*retval.x) + (retval.y*retval.y));
+    
+    
+
+    char* buffer = graph_plot_csv(temp_result, (ITERATION * ITERATION_2) + 2);
+    int buflen = strlen(buffer);
+
+    FILE* fptr = fopen_h("plot.csv", FMD_OVERWRITE);
+    fwrite(buffer, 1, buflen, fptr);
+    fclose(fptr);
+
+
+
 
     return retval;
     
