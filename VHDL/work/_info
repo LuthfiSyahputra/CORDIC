@@ -1,0 +1,339 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+Eadder_8bit
+Z0 w1748241381
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+Z3 dC:/Users/Root/Documents/GitHub/CORDIC/VHDL
+Z4 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd
+Z5 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd
+l0
+L5 1
+V;X<UJOQzHJ6aghY9F9:]^3
+!s100 idZO6Y_BR`O]TdaBo5ThC3
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1748370491
+!i10b 1
+Z8 !s108 1748370491.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd|
+Z10 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Astructural
+R1
+R2
+DEx4 work 10 adder_8bit 0 22 ;X<UJOQzHJ6aghY9F9:]^3
+!i122 2
+l31
+L15 32
+V4O>f;?X7f9d1KaPDNWg_K1
+!s100 iSm]Ma0dkOLj_WT9Hf<1X2
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu_32bit
+Z13 w1748357931
+R1
+R2
+!i122 4
+R3
+Z14 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd
+Z15 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd
+l0
+L4 1
+V>ESabGA?=nRQif^jzZE9c1
+!s100 z`d_Z`a^[=z52`beT1MWm3
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd|
+Z17 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd|
+!i113 1
+R11
+R12
+Astructural
+R1
+R2
+DEx4 work 9 alu_32bit 0 22 >ESabGA?=nRQif^jzZE9c1
+!i122 4
+l31
+L14 34
+VQ=:62<i6DRaB1I>IzfVML2
+!s100 W=iePU4MP^cdbe7oMChk[3
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Ed_gatedlatch
+Z18 w1748370031
+R1
+R2
+!i122 5
+R3
+Z19 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/latches.vhd
+Z20 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/latches.vhd
+l0
+L27 1
+Vo5[^9FWcP9Z:`Bah=f3S03
+!s100 D^=GIEL=C^8mUL];E6JCc0
+R6
+32
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/latches.vhd|
+Z22 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/latches.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 12 d_gatedlatch 0 22 o5[^9FWcP9Z:`Bah=f3S03
+!i122 5
+l40
+L36 15
+VGi6<9kD5Fc]Ya;mT]C`UD3
+!s100 T7F8bE98H8@k=maDdRho70
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Efulladder
+Z23 w1748200482
+R1
+R2
+!i122 0
+R3
+Z24 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd
+Z25 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd
+l0
+L6 1
+VG4Sh[KEziC8Vzzj]BP4a83
+!s100 O2H@[M[T>c`fMUinE?1L13
+R6
+32
+R7
+!i10b 1
+R8
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd|
+Z27 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 9 fulladder 0 22 G4Sh[KEziC8Vzzj]BP4a83
+!i122 0
+l18
+L17 5
+V@N3o63`SKQmM[>N?^@FDH1
+!s100 1abaQFR0:chYbB2h7V]V72
+R6
+32
+R7
+!i10b 1
+R8
+R26
+R27
+!i113 1
+R11
+R12
+Efulladder_tb
+Z28 w1748200557
+R1
+R2
+!i122 1
+R3
+Z29 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd
+Z30 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd
+l0
+L4 1
+V2lTo@0]_cVfSo>=I6<b`30
+!s100 nRWb0]g76FiW<:Y00j4jM2
+R6
+32
+R7
+!i10b 1
+R8
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd|
+Z32 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 12 fulladder_tb 0 22 2lTo@0]_cVfSo>=I6<b`30
+!i122 1
+l28
+L8 53
+VU4T5H9b1zJP`E^XZaBN=23
+!s100 C?f;>_^K[NhWmT=iZAh9E3
+R6
+32
+R7
+!i10b 1
+R8
+R31
+R32
+!i113 1
+R11
+R12
+Eripplecarryadder32
+Z33 w1748241665
+R1
+R2
+!i122 3
+R3
+Z34 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd
+Z35 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd
+l0
+L4 1
+VR^hcFHY^2CHXMkK=C]:Ue2
+!s100 cjEoe?N0?B9Db[8fkijn@0
+R6
+32
+R7
+!i10b 1
+R8
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd|
+Z37 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd|
+!i113 1
+R11
+R12
+Astructural
+R1
+R2
+DEx4 work 18 ripplecarryadder32 0 22 R^hcFHY^2CHXMkK=C]:Ue2
+!i122 3
+l30
+L14 59
+V3OOYOJiTP99SEIefWNf:02
+!s100 Fd;hlVz0]K3U1BY2oB>fb3
+R6
+32
+R7
+!i10b 1
+R8
+R36
+R37
+!i113 1
+R11
+R12
+Esrlatch
+R18
+R1
+R2
+!i122 5
+R3
+R19
+R20
+l0
+L4 1
+V8`nYiHNhmJlPPaf3VR8gI1
+!s100 NJo_L_;^_bUW<U?h<IkU;3
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 7 srlatch 0 22 8`nYiHNhmJlPPaf3VR8gI1
+!i122 5
+l16
+L14 9
+VF>lEJ4a]g@l@T?gdZ]VaT2
+!s100 aFd_Nl29@;GCBnGa4^flN1
+R6
+32
+R7
+!i10b 1
+R8
+R21
+R22
+!i113 1
+R11
+R12
+Etest
+Z38 w1748370076
+R1
+R2
+!i122 6
+R3
+Z39 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd
+Z40 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd
+l0
+L4 1
+VVic6W@n3RnoPEV9gd<GE:1
+!s100 [YL?Aj8b9^ZNZ]cA`]QDD3
+R6
+32
+R7
+!i10b 1
+R8
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd|
+!s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R1
+R2
+DEx4 work 4 test 0 22 Vic6W@n3RnoPEV9gd<GE:1
+!i122 6
+l42
+L8 93
+V:?WGhL>b<lz?I;j]Ze44>3
+!s100 c?kBb?UKc?AzSl^bLZV:]2
+R6
+32
+R7
+!i10b 1
+R8
+R41
+Z42 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd|
+!i113 1
+R11
+R12

@@ -1,0 +1,36 @@
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# 7 compiles, 0 failed with no errors.
+vsim -gui work.test
+# vsim -gui work.test 
+# Start time: 01:28:24 on May 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test(behavioral)
+# Loading work.srlatch(behavioral)
+# Loading work.d_gatedlatch(behavioral)
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 01:28:51 on May 28,2025, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 7
