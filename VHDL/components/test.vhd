@@ -7,20 +7,7 @@ end test;
 
 architecture Behavioral of test is
 
-    -- Step 1: Declare test signals
-    signal data : STD_LOGIC_VECTOR(31 downto 0) := "10110100101001011010011101010101";
-    signal S    : STD_LOGIC := '1';
-    signal R    : STD_LOGIC := '0';
-    signal Q    : STD_LOGIC;
-    signal Qn    : STD_LOGIC;    
-
-    -- signal D    : STD_LOGIC := '0';
-    signal clk    : STD_LOGIC := '0';
-    signal clear  : std_logic := '1';
-    signal Q_D    : STD_LOGIC;
-    signal Qn_D    : STD_LOGIC;    
     
-
     -- Step 2: Instantiate the Unit
     component SRlatch
         Port (
@@ -30,18 +17,60 @@ architecture Behavioral of test is
             Qn  : out STD_LOGIC
         );
     end component;
-
-    component JK_flipflop is
-        Port (
+    
+    component JK_flipflop is Port (
             J   : in STD_LOGIC;
             K   : in STD_LOGIC;
             clk : in STD_LOGIC;
             clear : in std_logic;
             Q   : out STD_LOGIC;
             Qn  : out STD_LOGIC
+            );
+    end component;
+
+    component register_Sin_8 is Port (
+            input : in STD_LOGIC;
+            clk   : in STD_LOGIC;
+            clear : in std_logic;
+            output: out STD_LOGIC_VECTOR(7 downto 0)
+            );
+    end component;
+
+    component register_8 is Port (
+            input : in STD_LOGIC_VECTOR(7 downto 0);
+            serial_input : in std_logic;
+            sh_load : in std_logic;
+            clk   : in STD_LOGIC;
+            clear : in std_logic;
+            output: out STD_LOGIC_VECTOR(7 downto 0)
         );
     end component;
 
+    component register_32 is Port (
+            input : in STD_LOGIC_VECTOR(31 downto 0);
+            serial_input : in std_logic;
+            sh_load : in std_logic;
+            clk   : in STD_LOGIC;
+            clear : in std_logic;
+            output: out STD_LOGIC_VECTOR(31 downto 0)
+        );
+    end component;
+
+    -- Step 1: Declare test signals
+    signal data : STD_LOGIC_VECTOR(31 downto 0) := "01100101101001011010011101010101";
+    signal S    : STD_LOGIC := '1';
+    signal R    : STD_LOGIC := '0';
+    signal Q    : STD_LOGIC;
+    signal Qn    : STD_LOGIC;    
+
+    -- signal D    : STD_LOGIC := '0';
+    signal clk    : STD_LOGIC := '0';
+    signal clear  : std_logic := '1';
+    signal load   : std_logic := '0';
+    signal Q_D    : STD_LOGIC_VECTOR(31 downto 0) := (others => '0');
+    signal Q_D2    : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
+    signal Qn_D    : STD_LOGIC;    
+    
 begin
     -- SRlatch_tb: SRlatch Port map(
     --     S   => S,
@@ -49,23 +78,50 @@ begin
     --     Q   => Q,
     --     Qn  => Qn
     -- );
-    Dlatch_tb: JK_flipflop port map (
-        J   => S,
-        K   => R,
-        clk => Clk,
+    -- Dlatch_tb: JK_flipflop port map (
+        --     J   => S,
+        --     K   => R,
+    --     clk => Clk,
+    --     clear => clear,
+    --     Q   => Q_D,
+    --     Qn  => Qn_D
+    -- );
+
+
+    
+    
+    reg1: register_32 port map (
+        input => data(31 downto 0),
+        serial_input => S,
+        sh_load => load,
+        Clk => clk,
         clear => clear,
-        Q   => Q_D,
-        Qn  => Qn_D
+        output => Q_D(31 downto 0)
     );
 
+    reg2: register_Sin_8 port map (
+            input => Q_D(0),
+            clk => clk,
+            clear => clear,
+            output => Q_D2(7 downto 0)
+    );
+    
     -- Step 3: Test process (stimulus)
     process
     begin
         clear <= '0' after 100 ps;
-        for i in 0 to 31 - 3 loop
+        load <= '1';
 
-            for j in i to i + 3 loop
-                R <= data(j+2);
+        wait for 10 ns;
+        clk <= '1';
+        wait for 10 ns;
+        load <= '0';
+
+
+        for i in 0 to 31 - 2 loop
+            
+            for j in i to i + 2 loop
+                R <= data(j+1);
                 S <= data(j);
                 -- S <= '1';
                 
