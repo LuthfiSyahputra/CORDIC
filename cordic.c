@@ -138,6 +138,8 @@ double func(double A, double w, double t);
 #define CONJUNGATE      0x4     // Conjugate Technique
 
 #define ITERATION_2 2
+#define TARGET_ANGLE 120
+#define MY_WAY 1
 
 #define NANOSECOND  0.000000001
 #define CLOCK_H     (5 * NANOSECOND)          // Nanosecond
@@ -164,8 +166,7 @@ int main(){
     FILE* fptr = fopen_h("result cordic.csv", FMD_RAPPEND);
     
     
-    
-    for (double angle = 0; angle < 361  ; angle +=0.5) {
+    for (double angle = TARGET_ANGLE ; angle < 361  ; angle +=9000) {
         double target_theta = DEG_RAD(angle);
         target = (coord_lf) {0, sin(target_theta)};
         
@@ -287,7 +288,13 @@ vec_2d CORDIC(coord_lf p, coord_lf target, double a, int mode) {
         // In vectoring mode, we try to keep the range between [-90, 90]
         // and mirror (conjugate) the real part (x), based from the derivative
         // Hence the logic is f(A,B,C) = (AB) + (C ~A); Where {true = +α, false = -α}
+
+#if MY_WAY
         if( ((mode & VECTORING_MODE) ? ((A && B) || (C && !A)) : (theta <= a))) {
+#else
+        if( ((mode & VECTORING_MODE) ? (p_0.y < target_b.y) : (theta <= a))) {
+#endif
+
             p_1.x = p_0.x - (p_0.y >> i);
             p_1.y = p_0.y + (p_0.x >> i);
         
@@ -317,13 +324,16 @@ vec_2d CORDIC(coord_lf p, coord_lf target, double a, int mode) {
         else n++;
 
     }
-    
+
+#if MY_WAY
     // TECHNIQUE 2: REAL CONJUNGATE
     if (FLAG_CHECK(mode, CONJUNGATE | NEGATIVE)) {
         p_0.x = -p_0.x;
         p.x = -p.x;
         theta = M_PI - theta;
     }
+#endif
+
     temp_result[temp_i] = p;
     printf("[%2d] deg: %-6.2lf   x: %-10lf   y: %-10lf  y_target: %lf\n", 99, RAD_DEG(theta), p.x, p.y, target.y);
 
