@@ -13,7 +13,7 @@ Eadder_8bit
 Z0 w1748241381
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 777
+!i122 831
 Z3 dC:/Users/Root/Documents/GitHub/CORDIC/VHDL
 Z4 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd
 Z5 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd
@@ -23,9 +23,9 @@ V;X<UJOQzHJ6aghY9F9:]^3
 !s100 idZO6Y_BR`O]TdaBo5ThC3
 Z6 OV;C;2020.1;71
 32
-Z7 !s110 1748421856
+Z7 !s110 1748443613
 !i10b 1
-Z8 !s108 1748421856.000000
+Z8 !s108 1748443613.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd|
 Z10 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd|
 !i113 1
@@ -35,7 +35,7 @@ Astructural
 R1
 R2
 DEx4 work 10 adder_8bit 0 22 ;X<UJOQzHJ6aghY9F9:]^3
-!i122 777
+!i122 831
 l31
 L15 32
 V4O>f;?X7f9d1KaPDNWg_K1
@@ -51,10 +51,10 @@ R10
 R11
 R12
 Ealu_32bit
-Z13 w1748357931
+Z13 w1748443599
 R1
 R2
-!i122 779
+!i122 833
 R3
 Z14 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd
 Z15 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd
@@ -64,9 +64,9 @@ V>ESabGA?=nRQif^jzZE9c1
 !s100 z`d_Z`a^[=z52`beT1MWm3
 R6
 32
-Z16 !s110 1748421857
+Z16 !s110 1748443614
 !i10b 1
-Z17 !s108 1748421857.000000
+Z17 !s108 1748443614.000000
 Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd|
 Z19 !s107 C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd|
 !i113 1
@@ -76,11 +76,11 @@ Astructural
 R1
 R2
 DEx4 work 9 alu_32bit 0 22 >ESabGA?=nRQif^jzZE9c1
-!i122 779
+!i122 833
 l31
-L14 34
-VQ=:62<i6DRaB1I>IzfVML2
-!s100 W=iePU4MP^cdbe7oMChk[3
+L14 33
+VCR;:HBY0Io6@moKM6mC2o2
+!s100 5O=zgIQ6<Mk=d4oSPM3Q=2
 R6
 32
 R16
@@ -95,7 +95,7 @@ Ed_flipflop
 Z20 w1748402786
 R1
 R2
-!i122 782
+!i122 836
 R3
 Z21 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/flipflop.vhd
 Z22 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/flipflop.vhd
@@ -117,7 +117,7 @@ Amasterslave
 R1
 R2
 DEx4 work 10 d_flipflop 0 22 0:iQBcnz:g<dRJd=nEfgz0
-!i122 782
+!i122 836
 l28
 L14 35
 V0E3g@3nHUh8jB;2f>Z?h?2
@@ -136,7 +136,7 @@ Ed_gatedlatch
 Z25 w1748402433
 R1
 R2
-!i122 780
+!i122 834
 R3
 Z26 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/latches.vhd
 Z27 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/latches.vhd
@@ -158,7 +158,7 @@ Abehavioral
 R1
 R2
 DEx4 work 12 d_gatedlatch 0 22 Ddc21VmjQeiYfVm1_`9ll0
-!i122 780
+!i122 834
 l41
 L37 30
 VZ4_;dfLHX^RT3h;^E^4CT0
@@ -177,7 +177,7 @@ Efulladder
 Z30 w1748200482
 R1
 R2
-!i122 775
+!i122 829
 R3
 Z31 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd
 Z32 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd
@@ -199,7 +199,7 @@ Abehavioral
 R1
 R2
 DEx4 work 9 fulladder 0 22 G4Sh[KEziC8Vzzj]BP4a83
-!i122 775
+!i122 829
 l18
 L17 5
 V@N3o63`SKQmM[>N?^@FDH1
@@ -218,7 +218,7 @@ Efulladder_tb
 Z35 w1748200557
 R1
 R2
-!i122 776
+!i122 830
 R3
 Z36 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd
 Z37 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd
@@ -240,7 +240,7 @@ Abehavioral
 R1
 R2
 DEx4 work 12 fulladder_tb 0 22 2lTo@0]_cVfSo>=I6<b`30
-!i122 776
+!i122 830
 l28
 L8 53
 VU4T5H9b1zJP`E^XZaBN=23
@@ -259,7 +259,7 @@ Ejk_flipflop
 R20
 R1
 R2
-!i122 782
+!i122 836
 R3
 R21
 R22
@@ -281,7 +281,7 @@ Abehavioral
 R1
 R2
 DEx4 work 11 jk_flipflop 0 22 1o?TczfhfDG6X^gEK?H=91
-!i122 782
+!i122 836
 l120
 L107 27
 V;Mmo9XVFgYI]BXFAcg^Q33
@@ -297,10 +297,10 @@ R24
 R11
 R12
 Eregister_16
-Z40 w1748420220
+Z40 w1748442506
 R1
 R2
-!i122 783
+!i122 837
 R3
 Z41 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/register.vhd
 Z42 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/register.vhd
@@ -322,7 +322,7 @@ Areg_ax
 R1
 R2
 Z45 DEx4 work 11 register_16 0 22 Odg=:KUi6I=UbW<;0m[8b3
-!i122 783
+!i122 837
 l119
 Z46 L105 36
 Z47 VAkEGKQHfGDTdk5dUmcXez2
@@ -341,7 +341,7 @@ Eregister_32
 R40
 R1
 R2
-!i122 783
+!i122 837
 R3
 R41
 R42
@@ -363,7 +363,7 @@ Areg_eax
 R1
 R2
 Z49 DEx4 work 11 register_32 0 22 MFImz87n><B_dB6bD9m?<2
-!i122 783
+!i122 837
 l170
 Z50 L156 30
 Z51 VKmXPHkHh8ldg;kX;<I<2?1
@@ -382,7 +382,7 @@ Eregister_8
 R40
 R1
 R2
-!i122 783
+!i122 837
 R3
 R41
 R42
@@ -404,7 +404,7 @@ Areg_a
 R1
 R2
 Z53 DEx4 work 10 register_8 0 22 9RLgTfT``@X[iInDkDYmL1
-!i122 783
+!i122 837
 l71
 Z54 L57 33
 Z55 VlekJN:?6k`dN5Xl;@c53m3
@@ -443,7 +443,7 @@ Eregister_sin_8
 R40
 R1
 R2
-!i122 783
+!i122 837
 R3
 R41
 R42
@@ -465,7 +465,7 @@ Abehavioral
 R1
 R2
 Z57 DEx4 work 14 register_sin_8 0 22 k73SZH8<Ge^0ZdS[FR0M=1
-!i122 783
+!i122 837
 l26
 Z58 L13 29
 Z59 V7glO`c2mdlI?Pz^=f^5O:2
@@ -484,7 +484,7 @@ Eripplecarryadder32
 Z61 w1748241665
 R1
 R2
-!i122 778
+!i122 832
 R3
 Z62 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd
 Z63 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd
@@ -506,7 +506,7 @@ Astructural
 R1
 R2
 DEx4 work 18 ripplecarryadder32 0 22 R^hcFHY^2CHXMkK=C]:Ue2
-!i122 778
+!i122 832
 l30
 L14 59
 V3OOYOJiTP99SEIefWNf:02
@@ -525,7 +525,7 @@ Esrlatch
 R25
 R1
 R2
-!i122 780
+!i122 834
 R3
 R26
 R27
@@ -547,7 +547,7 @@ Abehavioral
 R1
 R2
 DEx4 work 7 srlatch 0 22 8`nYiHNhmJlPPaf3VR8gI1
-!i122 780
+!i122 834
 l16
 L14 9
 VF>lEJ4a]g@l@T?gdZ]VaT2
@@ -566,7 +566,7 @@ Et_flipflop
 R20
 R1
 R2
-!i122 782
+!i122 836
 R3
 R21
 R22
@@ -588,7 +588,7 @@ Abehavioral
 R1
 R2
 DEx4 work 10 t_flipflop 0 22 01jTYfDdH?^;KaO?P[]oC1
-!i122 782
+!i122 836
 l78
 L65 27
 V7_3[0PG_74gQD5h61bh?E1
@@ -604,10 +604,10 @@ R24
 R11
 R12
 Etest
-Z66 w1748421850
+Z66 w1748443056
 R1
 R2
-!i122 781
+!i122 835
 R3
 Z67 8C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd
 Z68 FC:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd
@@ -629,11 +629,11 @@ Abehavioral
 R1
 R2
 DEx4 work 4 test 0 22 Vic6W@n3RnoPEV9gd<GE:1
-!i122 781
-l74
-L8 154
-V>4Ko]:Xa]2QGcb?9?EFC=2
-!s100 Aaf7O8[lkQEdlbM9BKkFL0
+!i122 835
+l88
+L8 178
+VZOQGWH7ETaRE5Ag2NAMJb3
+!s100 ACB@nMa^DDn:K?:fXHm212
 R6
 32
 R16

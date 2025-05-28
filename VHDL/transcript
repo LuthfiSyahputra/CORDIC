@@ -6,109 +6,74 @@
 # Compile of latches.vhd was successful.
 # Compile of test.vhd was successful.
 # Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error.
-# Load canceled
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
 # Compile of register.vhd was successful.
 # 9 compiles, 0 failed with no errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 1 errors.
-# 9 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 2 errors.
-# 9 compiles, 1 failed with 2 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 2 errors.
-# 9 compiles, 1 failed with 2 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd failed with 2 errors.
-# 9 compiles, 1 failed with 2 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# 9 compiles, 0 failed with no errors.
+vsim -gui work.test
+# vsim -gui work.test 
+# Start time: 21:24:25 on May 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test(behavioral)
+# Loading work.register_32(reg_eax)
+# Loading work.register_8(reg_a)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+# Loading work.register_sin_8(behavioral)
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:25:47 on May 28,2025, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 2
 # Compile of full_adder.vhd was successful.
 # Compile of full_adder_sim.vhd was successful.
 # Compile of adder_8bit.vhd was successful.
@@ -121,7 +86,7 @@
 # 9 compiles, 0 failed with no errors.
 vsim -gui work.test
 # vsim -gui work.test 
-# Start time: 15:44:28 on May 28,2025
+# Start time: 21:26:01 on May 28,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -132,6 +97,266 @@ vsim -gui work.test
 # Loading work.d_gatedlatch(behavioral)
 # Loading work.register_sin_8(behavioral)
 add wave -position insertpoint sim:/test/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:37:15 on May 28,2025, Elapsed time: 0:11:14
+# Errors: 0, Warnings: 2
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd failed with 1 errors.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# 9 compiles, 1 failed with 1 error.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.test
+# vsim -gui work.test 
+# Start time: 21:37:57 on May 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test(behavioral)
+# Loading work.register_32(reg_eax)
+# Loading work.register_8(reg_a)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+# Loading work.register_sin_8(behavioral)
+# Loading work.alu_32bit(structural)
+# ** Warning: (vsim-3473) Component instance "ADD : adder_32bit" is not bound.
+#    Time: 0 ps  Iteration: 0  Instance: /test/ALU1 File: C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/ALU_32bit.vhd
+# ** Warning: (vsim-8684) No drivers exist on out port /test/ALU1/Sum, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /test/Sum_ALU.
+# ** Warning: (vsim-8684) No drivers exist on out port /test/ALU1/Cout, and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /test/cout.
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:41:14 on May 28,2025, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 6
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.test
+# vsim -gui work.test 
+# Start time: 21:41:44 on May 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test(behavioral)
+# Loading work.register_32(reg_eax)
+# Loading work.register_8(reg_a)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+# Loading work.register_sin_8(behavioral)
+# Loading work.alu_32bit(structural)
+# Loading work.ripplecarryadder32(structural)
+# Loading work.adder_8bit(structural)
+# Loading work.fulladder(behavioral)
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:46:50 on May 28,2025, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 2
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.test
+# vsim -gui work.test 
+# Start time: 21:47:04 on May 28,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test(behavioral)
+# Loading work.register_32(reg_eax)
+# Loading work.register_8(reg_a)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+# Loading work.register_sin_8(behavioral)
+# Loading work.alu_32bit(structural)
+# Loading work.ripplecarryadder32(structural)
+# Loading work.adder_8bit(structural)
+# Loading work.fulladder(behavioral)
+add wave -position insertpoint sim:/test/*
+run
+run
+run
+run
+run
+run
+run
 run
 run
 run

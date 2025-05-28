@@ -46,6 +46,15 @@ architecture Behavioral of test is
         );
     end component;
 
+    component ALU_32bit is port (
+            A    : in  STD_LOGIC_VECTOR(31 downto 0);
+            B    : in  STD_LOGIC_VECTOR(31 downto 0);
+            sub  : in  STD_LOGIC;
+            Sum  : out STD_LOGIC_VECTOR(31 downto 0);
+            Cout : out STD_LOGIC
+        );
+    end component;
+
     component register_32 is Port (
             input : in STD_LOGIC_VECTOR(31 downto 0);
             serial_input : in std_logic;
@@ -70,6 +79,11 @@ architecture Behavioral of test is
     signal Q_D    : STD_LOGIC_VECTOR(31 downto 0) := (others => '0');
     signal Q_D2    : STD_LOGIC_VECTOR(7 downto 0) := (others => '0');
     signal Qn_D    : STD_LOGIC;    
+
+    signal Sum_ALU : std_logic_vector(31 downto 0) := (others => '0');
+    signal cout    : std_logic;
+
+    signal sub_flag : std_logic := '0';
     
 begin
     -- SRlatch_tb: SRlatch Port map(
@@ -106,6 +120,14 @@ begin
             output => Q_D2(7 downto 0)
     );
     
+    ALU1: ALU_32bit port map (
+            A    => data,
+            B    => Q_D, 
+            sub  => sub_flag,
+            Sum  => Sum_ALU,
+            Cout => cout
+        );
+
     -- Step 3: Test process (stimulus)
     process
     begin
@@ -126,10 +148,12 @@ begin
                 -- S <= '1';
                 
                 wait for 5 ns;
+
             end loop;
                 
                 
         clk <= (not clk);
+        sub_flag <= clk nor Q_D(1);
             -- wait for 10 ns;
         end loop;  -- ii
 

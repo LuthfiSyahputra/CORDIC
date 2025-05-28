@@ -14,7 +14,7 @@ end ALU_32bit;
 architecture Structural of ALU_32bit is
 
     -- Declare component for 32-bit adder
-    component adder_32bit
+    component RippleCarryAdder32
     Port (
         A    : in  STD_LOGIC_VECTOR(31 downto 0);
         B    : in  STD_LOGIC_VECTOR(31 downto 0);
@@ -35,10 +35,9 @@ begin
     end generate ALU_sub_neg;
 
     -- 4 x 8-bit adder blocks
-    ADD: adder_32bit
-        port map (
+    ADD: RippleCarryAdder32 port map (
             A    => A,
-            B    => B,
+            B    => B_eff,
             Cin  => sub_flag,
             Sum  => Sum,
             Cout => Cout
