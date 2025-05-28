@@ -26,10 +26,11 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity D_gatedlatch is
     Port (
-        D   : in STD_LOGIC;
-        clk : in STD_LOGIC;
-        Q   : out STD_LOGIC;
-        Qn  : out STD_LOGIC
+        D       : in STD_LOGIC;
+        enable  : in STD_LOGIC;
+        clear   : in STD_LOGIC;
+        Q       : out STD_LOGIC;
+        Qn      : out STD_LOGIC
     );
 end D_gatedlatch;
 
@@ -39,12 +40,31 @@ architecture Behavioral of D_gatedlatch is
 
 begin
 
-    S <= D nand clk;
-    R <= (not D) nand clk;
+    process
+    begin
+        if clear = '1' then
+            -- The conventional clear capability produce infinite loop bug in simulation somehow
+            -- Qout <= S nand Qoutn;
+            -- Qoutn <= R nand Qout nand clear;
+            -- S <= D nand enable       after 50 ps;
+            -- R <= (not D) nand enable after 50 ps;
 
-    Qout <= S nand Qoutn;
-    Qoutn <= R nand Qout;
+            Qout <= '0';
+            Qoutn <= '1';
+        elsif clear = '0' then
+            Qout <= S nand Qoutn;
+            Qoutn <= R nand Qout;
+            S <= D nand enable       after 50 ps;
+            R <= (not D) nand enable after 50 ps;
+        end if;
+        wait for 10 ps;
+    end process;
+
 
     Q <= Qout;
     Qn <= Qoutn;
 end Behavioral;
+
+
+
+

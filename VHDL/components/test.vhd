@@ -16,6 +16,7 @@ architecture Behavioral of test is
 
     -- signal D    : STD_LOGIC := '0';
     signal clk    : STD_LOGIC := '0';
+    signal clear  : std_logic := '1';
     signal Q_D    : STD_LOGIC;
     signal Qn_D    : STD_LOGIC;    
     
@@ -30,25 +31,29 @@ architecture Behavioral of test is
         );
     end component;
 
-    component D_gatedlatch is
+    component JK_flipflop is
         Port (
-            D   : in STD_LOGIC;
+            J   : in STD_LOGIC;
+            K   : in STD_LOGIC;
             clk : in STD_LOGIC;
+            clear : in std_logic;
             Q   : out STD_LOGIC;
             Qn  : out STD_LOGIC
         );
     end component;
 
 begin
-    SRlatch_tb: SRlatch Port map(
-        S   => S,
-        R   => R,
-        Q   => Q,
-        Qn  => Qn
-    );
-    Dlatch_tb: D_gatedlatch port map (
-        D   => S,
+    -- SRlatch_tb: SRlatch Port map(
+    --     S   => S,
+    --     R   => R,
+    --     Q   => Q,
+    --     Qn  => Qn
+    -- );
+    Dlatch_tb: JK_flipflop port map (
+        J   => S,
+        K   => R,
         clk => Clk,
+        clear => clear,
         Q   => Q_D,
         Qn  => Qn_D
     );
@@ -56,13 +61,13 @@ begin
     -- Step 3: Test process (stimulus)
     process
     begin
-
+        clear <= '0' after 100 ps;
         for i in 0 to 31 - 3 loop
 
             for j in i to i + 3 loop
-                R <= (not data(j));
+                R <= data(j+2);
                 S <= data(j);
-                
+                -- S <= '1';
                 
                 wait for 5 ns;
             end loop;

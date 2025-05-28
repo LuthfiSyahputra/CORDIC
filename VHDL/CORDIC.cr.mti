@@ -1,4 +1,16 @@
-C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd
+C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/flipflop.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/flipflop.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity D_flipflop
+-- Compiling architecture masterslave of D_flipflop
+-- Compiling entity T_flipflop
+-- Compiling architecture Behavioral of T_flipflop
+-- Compiling entity JK_flipflop
+-- Compiling architecture Behavioral of JK_flipflop
+
+} {} {}} C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -24,13 +36,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity ALU_32bit
 -- Compiling architecture Structural of ALU_32bit
 
-} {} {}} C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd
+} {} {}} C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity adder_8bit
--- Compiling architecture Structural of adder_8bit
+-- Compiling entity FullAdder
+-- Compiling architecture Behavioral of FullAdder
 
 } {} {}} C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder_sim.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
@@ -40,13 +52,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Compiling entity FullAdder_tb
 -- Compiling architecture Behavioral of FullAdder_tb
 
-} {} {}} C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/full_adder.vhd
+} {} {}} C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_8bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity FullAdder
--- Compiling architecture Behavioral of FullAdder
+-- Compiling entity adder_8bit
+-- Compiling architecture Structural of adder_8bit
 
 } {} {}} C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/adder_32bit.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
