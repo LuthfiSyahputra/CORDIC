@@ -139,7 +139,7 @@ begin
 
  end REG_AX;
 
- library IEEE;
+library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity register_32 is
@@ -166,13 +166,12 @@ architecture REG_EAX of register_32 is
     );
     end component;
 
-
 begin
     output_sig(32) <= serial_input;
     reg_part: for i in 3 downto 0 generate
         REG : register_8 port map (
-            input        => input(( ((i+1) * 8) - 1) downto (i * 8)),
-            serial_input => output_sig(i*8),
+            input        => input( ( ((i+1) * 8) - 1) downto (i * 8)),
+            serial_input => output_sig((i+1)*8),
             sh_load      => sh_load,
             clk          => clk,
             clear        => clear,
@@ -181,5 +180,43 @@ begin
     end generate reg_part;
 
     output <= output_sig(31 downto 0);
-
  end REG_EAX;
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+ entity shl_int32 is
+    Port (
+        input : in STD_LOGIC_VECTOR(31 downto 0);
+        is_signed  : in std_logic; -- 0 for unsigned type, 1 for signed type
+        sh_load : in std_logic;
+        clk   : in STD_LOGIC;
+        clear : in std_logic;
+        output: out STD_LOGIC_VECTOR(31 downto 0)
+    );
+end shl_int32;
+
+architecture behavioral of shl_int32 is
+    signal serial_input: std_logic;
+
+    component register_32 Port (
+        input : in STD_LOGIC_VECTOR(31 downto 0);
+        serial_input : in std_logic;
+        sh_load : in std_logic;
+        clk   : in STD_LOGIC;
+        clear : in std_logic;
+        output: out STD_LOGIC_VECTOR(31 downto 0)
+    );
+    end component;
+
+begin
+    serial_input <= is_signed and input(31);
+    REG: register_32 port map (
+        input => input,
+        serial_input => serial_input,
+        sh_load => sh_load,
+        clk => clk,
+        clear => clear,
+        output => output
+    );
+ end behavioral;

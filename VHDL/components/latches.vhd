@@ -43,7 +43,7 @@ begin
     process
     begin
         if clear = '1' then
-            -- The conventional clear capability produce infinite loop bug in simulation somehow
+            -- The conventional gates clear capability produce infinite loop bug in simulation somehow
             -- Qout <= S nand Qoutn;
             -- Qoutn <= R nand Qout nand clear;
             -- S <= D nand enable       after 50 ps;

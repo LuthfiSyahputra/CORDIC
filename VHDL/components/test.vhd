@@ -65,6 +65,19 @@ architecture Behavioral of test is
         );
     end component;
 
+    component mux2_1 is Port (
+            input : in std_logic_vector(1 downto 0);
+            S     : in std_logic;
+            output: out std_logic
+        );
+    end component;
+    component mux4_1 is Port (
+            input : in std_logic_vector(3 downto 0);
+            S     : in std_logic_vector(1 downto 0);
+            output: out std_logic
+        );
+    end component;
+
     -- Step 1: Declare test signals
     signal data : STD_LOGIC_VECTOR(31 downto 0) := "01100101101001011010011101010101";
     signal S    : STD_LOGIC := '1';
@@ -84,6 +97,10 @@ architecture Behavioral of test is
     signal cout    : std_logic;
 
     signal sub_flag : std_logic := '0';
+
+    signal mux_out1 : std_logic := '0';
+    signal mux_out2 : std_logic := '0';
+    signal mux_sw : std_logic_vector(1 downto 0);
     
 begin
     -- SRlatch_tb: SRlatch Port map(
@@ -105,8 +122,8 @@ begin
     
     
     reg1: register_32 port map (
-        input => data(31 downto 0),
-        serial_input => S,
+        input => data,
+        serial_input => '0',
         sh_load => load,
         Clk => clk,
         clear => clear,
@@ -114,21 +131,31 @@ begin
     );
 
     reg2: register_Sin_8 port map (
-            input => Q_D(0),
-            clk => clk,
-            clear => clear,
-            output => Q_D2(7 downto 0)
+        input => Q_D(0),
+        clk => clk,
+        clear => clear,
+        output => Q_D2(7 downto 0)
     );
     
     ALU1: ALU_32bit port map (
-            A    => data,
-            B    => Q_D, 
-            sub  => sub_flag,
-            Sum  => Sum_ALU,
-            Cout => cout
-        );
+        A    => data,
+        B    => Q_D, 
+        sub  => sub_flag,
+        Sum  => Sum_ALU,
+        Cout => cout
+    );
 
-    -- Step 3: Test process (stimulus)
+    MUX2 : mux4_1 Port map (
+        input => Q_D2(3 downto 0),
+        S     => mux_sw,
+        output=> mux_out2
+    );
+    MUX1 : mux2_1 Port map (
+        input => Q_D2(1 downto 0),
+        S     => mux_sw(0),
+        output=> mux_out1
+    );
+        -- Step 3: Test process (stimulus)
     process
     begin
         clear <= '0' after 100 ps;
@@ -145,6 +172,7 @@ begin
             for j in i to i + 2 loop
                 R <= data(j+1);
                 S <= data(j);
+                mux_sw <= Q_D(6 downto 5);
                 -- S <= '1';
                 
                 wait for 5 ns;
