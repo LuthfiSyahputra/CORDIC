@@ -1,0 +1,35 @@
+// Fixed-Point 5-bit Divider
+digraph {
+	A [label="Dividend (5-bit)" shape=rectangle]
+	B [label="Divisor (3-bit)" shape=rectangle]
+	AS [label="Abs / Sign Logic" shape=parallelogram]
+	QR [label="Quotient Register (Q)" shape=rectangle]
+	RR [label="Remainder Register (R)" shape=rectangle]
+	CNT [label=Counter shape=ellipse]
+	CTRL [label="Control FSM" shape=ellipse]
+	SUB [label=Subtractor shape=diamond]
+	MUX [label="MUX
+(R or R - D)" shape=diamond]
+	SHL [label="Shift Left
+(QR, R)" shape=diamond]
+	QO [label="Quotient Out" shape=rectangle]
+	RO [label="Remainder Out" shape=rectangle]
+	A -> AS
+	B -> AS
+	AS -> QR [label="Q init"]
+	AS -> RR [label="R init"]
+	CTRL -> CNT [label=Count]
+	RR -> SUB [label=R]
+	B -> SUB [label=D]
+	SUB -> MUX [label="R - D"]
+	RR -> MUX [label=R]
+	MUX -> RR [label="R <- MUX out"]
+	MUX -> CTRL [label="Sign Bit"]
+	CTRL -> QR [label="Set Q[i]"]
+	QR -> SHL
+	RR -> SHL
+	SHL -> QR
+	SHL -> RR
+	QR -> QO
+	RR -> RO
+}

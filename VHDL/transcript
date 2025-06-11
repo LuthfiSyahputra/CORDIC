@@ -1,94 +1,4 @@
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd failed with 1 errors.
-# Compile of test2.vhd was successful.
-# 12 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd failed with 3 errors.
-# Compile of test2.vhd was successful.
-# 12 compiles, 1 failed with 3 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd failed with 5 errors.
-# Compile of test2.vhd was successful.
-# 12 compiles, 1 failed with 5 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd failed with 1 errors.
-# Compile of test2.vhd was successful.
-# 12 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd failed with 1 errors.
-# Compile of test2.vhd was successful.
-# 12 compiles, 1 failed with 1 error.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd failed with 3 errors.
-# Compile of test2.vhd was successful.
-# 12 compiles, 1 failed with 3 errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd failed with 5 errors.
-# Compile of test2.vhd was successful.
-# 12 compiles, 1 failed with 5 errors.
+# Compile of comparator.vhd failed with 1 errors.
 # Compile of full_adder.vhd was successful.
 # Compile of full_adder_sim.vhd was successful.
 # Compile of adder_8bit.vhd was successful.
@@ -101,20 +11,8 @@
 # Compile of multiplexer.vhd was successful.
 # Compile of counter.vhd was successful.
 # Compile of test2.vhd was successful.
-# 12 compiles, 0 failed with no errors.
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd was successful.
-# Compile of test2.vhd failed with 2 errors.
-# 12 compiles, 1 failed with 2 errors.
+# Compile of comparator.vhd failed with 1 errors.
+# 13 compiles, 1 failed with 1 error.
 # Compile of full_adder.vhd was successful.
 # Compile of full_adder_sim.vhd was successful.
 # Compile of adder_8bit.vhd was successful.
@@ -127,48 +25,47 @@
 # Compile of multiplexer.vhd was successful.
 # Compile of counter.vhd was successful.
 # Compile of test2.vhd was successful.
-# 12 compiles, 0 failed with no errors.
+# Compile of comparator.vhd failed with 1 errors.
+# 13 compiles, 1 failed with 1 error.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
 vsim -gui work.test2
 # vsim -gui work.test2 
-# Start time: 21:20:43 on Jun 02,2025
+# Start time: 11:21:50 on Jun 11,2025
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
 # Loading work.test2(test_proc)
-# Loading work.synccounter(behavioral)
-# ** Error: (vsim-3732) No default binding for component instance 'SYNC_COUNTER'.
-#    The following component port is not on the entity:
-#           QD_c
-#    Time: 0 ps  Iteration: 0  Instance: /test2/SYNC_COUNTER File: C:/Users/Root/Documents/GitHub/CORDIC/VHDL/components/test2.vhd Line: 79
-# Loading work.d_flipflop(masterslave)
-# Loading work.d_gatedlatch(behavioral)
-# Loading work.counter_4(behavioral)
-# Loading work.mux2_1(behavioral)
-# Error loading design
-# End time: 21:20:43 on Jun 02,2025, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 11
-# Compile of full_adder.vhd was successful.
-# Compile of full_adder_sim.vhd was successful.
-# Compile of adder_8bit.vhd was successful.
-# Compile of adder_32bit.vhd was successful.
-# Compile of ALU_32bit.vhd was successful.
-# Compile of latches.vhd was successful.
-# Compile of test.vhd was successful.
-# Compile of flipflop.vhd was successful.
-# Compile of register.vhd was successful.
-# Compile of multiplexer.vhd was successful.
-# Compile of counter.vhd was successful.
-# Compile of test2.vhd was successful.
-# 12 compiles, 0 failed with no errors.
-vsim -gui work.test2
-# vsim -gui work.test2 
-# Start time: 21:21:18 on Jun 02,2025
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.test2(test_proc)
+# Loading work.comparator_8(structural)
+# Loading work.fulladder(behavioral)
+# Loading work.cmp_decoder(behavioral)
 # Loading work.counter_4(behavioral)
 # Loading work.mux2_1(behavioral)
 # Loading work.d_flipflop(masterslave)
@@ -176,73 +73,301 @@ vsim -gui work.test2
 add wave -position insertpoint sim:/test2/*
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Root  Hostname: DESKTOP-P1BEGQJ  ProcessID: 8592
-#           Attempting to use alternate WLF file "./wlft255677".
+#           Attempting to use alternate WLF file "./wlfts8x8ms".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft255677
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-# End time: 21:22:35 on Jun 02,2025, Elapsed time: 0:01:17
+#           Using alternate file: ./wlfts8x8ms
+run
+run
+run
+quit -sim
+# End time: 11:24:32 on Jun 11,2025, Elapsed time: 0:02:42
+# Errors: 0, Warnings: 9
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Load canceled
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.test2
+# vsim -gui work.test2 
+# Start time: 11:24:52 on Jun 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test2(test_proc)
+# Loading work.comparator_8(structural)
+# Loading work.fulladder(behavioral)
+# Loading work.cmp_decoder(behavioral)
+# Loading work.counter_4(behavioral)
+# Loading work.mux2_1(behavioral)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+add wave -position insertpoint sim:/test2/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Root  Hostname: DESKTOP-P1BEGQJ  ProcessID: 8592
+#           Attempting to use alternate WLF file "./wlft4t7gi6".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft4t7gi6
+run
+run
+# WARNING: No extended dataflow license exists
+# Break key hit
+quit -sim
+# End time: 11:25:39 on Jun 11,2025, Elapsed time: 0:00:47
 # Errors: 0, Warnings: 4
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.test2
+# vsim -gui work.test2 
+# Start time: 11:25:55 on Jun 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test2(test_proc)
+# Loading work.comparator_8(structural)
+# Loading work.fulladder(behavioral)
+# Loading work.cmp_decoder(behavioral)
+# Loading work.counter_4(behavioral)
+# Loading work.mux2_1(behavioral)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+add wave -position insertpoint sim:/test2/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Root  Hostname: DESKTOP-P1BEGQJ  ProcessID: 8592
+#           Attempting to use alternate WLF file "./wlftqbriiz".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqbriiz
+run
+run
+run
+quit -sim
+# End time: 11:50:36 on Jun 11,2025, Elapsed time: 0:24:41
+# Errors: 0, Warnings: 4
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.test2
+# vsim -gui work.test2 
+# Start time: 11:50:57 on Jun 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test2(test_proc)
+# Loading work.comparator_8(structural)
+# Loading work.fulladder(behavioral)
+# Loading work.cmp_decoder(behavioral)
+# Loading work.counter_4(behavioral)
+# Loading work.mux2_1(behavioral)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+add wave -position insertpoint sim:/test2/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Root  Hostname: DESKTOP-P1BEGQJ  ProcessID: 8592
+#           Attempting to use alternate WLF file "./wlft12d5fe".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft12d5fe
+run
+run
+quit -sim
+# End time: 11:51:51 on Jun 11,2025, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 4
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.test2
+# vsim -gui work.test2 
+# Start time: 11:52:09 on Jun 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test2(test_proc)
+# Loading work.comparator_8(structural)
+# Loading work.fulladder(behavioral)
+# Loading work.cmp_decoder(behavioral)
+# Loading work.counter_4(behavioral)
+# Loading work.mux2_1(behavioral)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+add wave -position insertpoint sim:/test2/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Root  Hostname: DESKTOP-P1BEGQJ  ProcessID: 8592
+#           Attempting to use alternate WLF file "./wlftqf52jr".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftqf52jr
+run
+run
+run
+quit -sim
+# End time: 11:53:02 on Jun 11,2025, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 4
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.test2
+# vsim -gui work.test2 
+# Start time: 11:53:18 on Jun 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test2(test_proc)
+# Loading work.comparator_8(structural)
+# Loading work.fulladder(behavioral)
+# Loading work.cmp_decoder(behavioral)
+# Loading work.counter_4(behavioral)
+# Loading work.mux2_1(behavioral)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+add wave -position insertpoint sim:/test2/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Root  Hostname: DESKTOP-P1BEGQJ  ProcessID: 8592
+#           Attempting to use alternate WLF file "./wlftj8rxx4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftj8rxx4
+run
+run
+run
+quit -sim
+# End time: 11:54:04 on Jun 11,2025, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 4
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -gui work.test2
+# vsim -gui work.test2 
+# Start time: 11:54:32 on Jun 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.test2(test_proc)
+# Loading work.comparator_8(structural)
+# Loading work.fulladder(behavioral)
+# Loading work.cmp_decoder(behavioral)
+# Loading work.counter_4(behavioral)
+# Loading work.mux2_1(behavioral)
+# Loading work.d_flipflop(masterslave)
+# Loading work.d_gatedlatch(behavioral)
+add wave -position insertpoint sim:/test2/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Root  Hostname: DESKTOP-P1BEGQJ  ProcessID: 8592
+#           Attempting to use alternate WLF file "./wlftvwgvc8".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftvwgvc8
+run
+run
+run
+quit -sim
+# End time: 13:12:09 on Jun 11,2025, Elapsed time: 1:17:37
+# Errors: 0, Warnings: 4
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd failed with 1 errors.
+# 13 compiles, 1 failed with 1 error.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd failed with 3 errors.
+# 13 compiles, 1 failed with 3 errors.
+# Compile of full_adder.vhd was successful.
+# Compile of full_adder_sim.vhd was successful.
+# Compile of adder_8bit.vhd was successful.
+# Compile of adder_32bit.vhd was successful.
+# Compile of ALU_32bit.vhd was successful.
+# Compile of latches.vhd was successful.
+# Compile of test.vhd was successful.
+# Compile of flipflop.vhd was successful.
+# Compile of register.vhd was successful.
+# Compile of multiplexer.vhd was successful.
+# Compile of counter.vhd was successful.
+# Compile of test2.vhd was successful.
+# Compile of comparator.vhd was successful.
+# 13 compiles, 0 failed with no errors.

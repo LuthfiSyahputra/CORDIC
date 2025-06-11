@@ -18,7 +18,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>En</string>
+          <string>Clk</string>
         </entry>
       </elementAttributes>
       <pos x="380" y="320"/>

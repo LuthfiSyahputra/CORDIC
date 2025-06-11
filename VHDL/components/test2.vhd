@@ -25,6 +25,10 @@ architecture test_proc of test2 is
     signal out_16 : std_logic_vector(15 downto 0) := (others => '0');
     signal out_32 : std_logic_vector(31 downto 0) := (others => '0');
 
+    signal V : std_logic := '0';
+    signal N : std_logic := '0';
+    signal Z : std_logic := '0';
+
     signal enable : std_logic := '0';
     signal load   : std_logic := '0';
 
@@ -43,6 +47,23 @@ architecture test_proc of test2 is
         Q      : out std_logic_vector(7 downto 0);
         Qn     : out std_logic_vector(7 downto 0);
         QD_c   : out std_logic -- Q_D carry (Qout_n and QD_n)
+    );
+    end component;
+
+    component comparator_8 is port (
+        A    : in  STD_LOGIC_VECTOR(7 downto 0);
+        B    : in  STD_LOGIC_VECTOR(7 downto 0);
+        V    : out std_logic;
+        N    : out std_logic;
+        Z    : out std_logic
+    );
+    end component;
+
+    component cmp_decoder is Port (
+        V    : in std_logic;
+        N    : in std_logic;
+        Z    : in std_logic;
+        lt   : out std_logic
     );
     end component;
 
@@ -78,6 +99,21 @@ begin
     --     QD_c   => out_1
     -- );
 
+    CMP : comparator_8 port map (
+        A => out_8,
+        B => out2_8,
+        V => V,
+        N => N,
+        Z => Z
+    );
+
+    CMP_DEC : cmp_decoder port map (
+        V => V,
+        N => N,
+        Z => Z,
+        lt => out_1
+    );
+
     CNT : counter_4 port map (
         enable => enable,
         D      => data(8 downto 5),
@@ -89,6 +125,7 @@ begin
         Q      => out_4,
         Cout   => out_16(0)
     );
+
     process begin
         clear <= '0' after 10 ps;
         enable <= '0';
@@ -99,6 +136,10 @@ begin
         
         for i in 0 to 128 loop
             wait for 2 ns;
+
+            out2_8  <= "10000000";
+            out_8 <= "01111111";
+
             enable <= '1';
             load <= '0';
             clk <= not clk;

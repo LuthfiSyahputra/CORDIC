@@ -1,0 +1,39 @@
+// Gate-Level Sketch of 5-bit Q2.3 Divider (Restoring Division)
+digraph {
+	rankdir=LR size=10
+	A [label="Dividend A[4:0] (Q2.3)" fillcolor=lightblue shape=rectangle style=filled]
+	B [label="Divisor B[4:0] (Q2.3)" fillcolor=lightblue shape=rectangle style=filled]
+	ABS_A [label="Abs(A)" shape=rectangle]
+	ABS_B [label="Abs(B)" shape=rectangle]
+	SHL [label="Shift Left by 3 (×8)" fillcolor=lightgrey shape=parallelogram style=filled]
+	R [label="Remainder Reg (5 bits)" shape=rectangle]
+	Q [label="Quotient Reg (5 bits)" shape=rectangle]
+	CNT [label="Counter (5)" shape=circle]
+	SH [label="Shift {R, A} Left" shape=diamond]
+	SUB [label="Subtract R - B" shape=rectangle]
+	CMP [label="Temp ≥ 0?" shape=diamond]
+	MUX_R [label="MUX R Update" shape=triangle]
+	MUX_Q [label="MUX Q(i) Bit" shape=triangle]
+	Q_SIGN [label="Adjust Sign(Q)" fillcolor=lightgrey shape=rectangle style=filled]
+	R_SIGN [label="Adjust Sign(R)" fillcolor=lightgrey shape=rectangle style=filled]
+	OUT_Q [label="Final Quotient" fillcolor=lightgreen shape=rectangle style=filled]
+	OUT_R [label="Final Remainder" fillcolor=lightgreen shape=rectangle style=filled]
+	A -> ABS_A
+	B -> ABS_B
+	ABS_A -> SHL
+	ABS_B -> SUB
+	SHL -> SH
+	SH -> SUB
+	SUB -> CMP
+	CMP -> MUX_R
+	CMP -> MUX_Q
+	MUX_R -> R
+	MUX_Q -> Q
+	R -> SH
+	CNT -> SH
+	CNT -> CMP
+	Q -> Q_SIGN
+	R -> R_SIGN
+	Q_SIGN -> OUT_Q
+	R_SIGN -> OUT_R
+}
