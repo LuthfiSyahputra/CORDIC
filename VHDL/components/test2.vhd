@@ -23,7 +23,11 @@ architecture test_proc of test2 is
     signal out_8 : std_logic_vector(7 downto 0) := (others => '0');
     signal out2_8 : std_logic_vector(7 downto 0) := (others => '0');
     signal out_16 : std_logic_vector(15 downto 0) := (others => '0');
-    signal out_32 : std_logic_vector(31 downto 0) := (others => '0');
+    signal out_32 : std_logic_vector(31 downto 0) := "00000000000000000100000000000000";
+
+
+    signal data_32 : std_logic_vector(31 downto 0)  := "00001111110001100100011101110111";
+    signal data2_32 : std_logic_vector(31 downto 0) := "00110100001100101000000010000000";
 
     signal V : std_logic := '0';
     signal N : std_logic := '0';
@@ -31,6 +35,23 @@ architecture test_proc of test2 is
 
     signal enable : std_logic := '0';
     signal load   : std_logic := '0';
+
+    component fp_divider
+        generic (
+            W : positive := 16;
+            F : natural  := 11
+        );
+        port (
+            clk     : in  std_logic;
+            enable  : in  std_logic;
+            A       : in  std_logic_vector(W-1 downto 0);
+            B       : in  std_logic_vector(W-1 downto 0);
+            done    : out std_logic;
+            quo     : out std_logic_vector(W-1 downto 0);
+            remain  : out std_logic_vector(W-1 downto 0)
+        );
+    end component;
+
 
     component upCounter is port (
         enable : in std_logic;
@@ -99,32 +120,48 @@ begin
     --     QD_c   => out_1
     -- );
 
-    CMP : comparator_8 port map (
-        A => out_8,
-        B => out2_8,
-        V => V,
-        N => N,
-        Z => Z
+    -- CMP : comparator_8 port map (
+    --     A => out_8,
+    --     B => out2_8,
+    --     V => V,
+    --     N => N,
+    --     Z => Z
+    -- );
+
+    -- CMP_DEC : cmp_decoder port map (
+    --     V => V,
+    --     N => N,
+    --     Z => Z,
+    --     lt => out_1
+    -- );
+
+    -- CNT : counter_4 port map (
+    --     enable => enable,
+    --     D      => data(8 downto 5),
+    --     load_cnt => load,
+
+    --     clk    => clk,
+    --     clear  => clear,
+
+    --     Q      => out_4,
+    --     Cout   => out_16(0)
+    -- );
+
+    U_fp_div24 : fp_divider
+        generic map (
+            W => 32,
+            F => 26
+        )
+        port map (
+            clk    => clk,
+            enable => enable,
+            A      => data_32,       -- std_logic_vector(23 downto 0)
+            B      => data2_32,
+            done   => out_1,
+            quo    => output1,
+            remain => output2
     );
 
-    CMP_DEC : cmp_decoder port map (
-        V => V,
-        N => N,
-        Z => Z,
-        lt => out_1
-    );
-
-    CNT : counter_4 port map (
-        enable => enable,
-        D      => data(8 downto 5),
-        load_cnt => load,
-
-        clk    => clk,
-        clear  => clear,
-
-        Q      => out_4,
-        Cout   => out_16(0)
-    );
 
     process begin
         clear <= '0' after 10 ps;

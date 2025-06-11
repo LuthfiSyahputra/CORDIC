@@ -4,7 +4,7 @@
 
 #define FLAG_CHECK(val, flag) ((val & (flag)) && flag)
 
-#define INTEGER_WIDTH 8
+#define INTEGER_WIDTH 6
 #define DECIMAL_WIDTH(int_width, sizeof_type) ((sizeof_type * 8) - int_width)
 
 typedef union fp{

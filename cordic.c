@@ -101,6 +101,7 @@
 #include "render.h"
 #include "datatype.h"
 #include "file_io.h"
+#include "num_conv.h"
 
 #define HALT_KEY(msg)  {printf("%s", msg); getch();}
 
@@ -137,7 +138,7 @@ double func(double A, double w, double t);
 #define NEGATIVE        0x2     // Negative slope / derivative
 #define CONJUNGATE      0x4     // Conjugate Technique
 
-#define ITERATION_2 2
+#define ITERATION_2 1
 #define TARGET_ANGLE 120
 #define MY_WAY 1
 
@@ -196,52 +197,6 @@ int main(){
 
 
 /* =========================================== FUNCTIONS ================================================ */
-
-
-// Floating-Point to Fixed-Point Converter
-long long lf2fp(double val, int dec_width) {
-    register unsigned long long temp = 0;
-    // if(val == 0) return 0;
-    
-    // because the size of [s][E][M] with ||s|| + ||E|| = 12 and ||M|| = 52
-    // the integer part of the transformation in [temp] will only have ||s + E|| range (12)
-    // the number bigger than it will be lost, there is a need to optimize and do the shift early with E
-    
-    // // transform to real value with ||dec|| = ||M||
-    // register int E = (( *(long long*)&val & 0x7ff0000000000000 ) >> 52) - 1023;
-    // if(E >= 0) { temp = (((*(long long*)&val | 0x0010000000000000) & 0x001fffffffffffff) << E) ;}
-    // else       { temp = (((*(long long*)&val | 0x0010000000000000) & 0x001fffffffffffff) >> -E) ;}
-    
-    // // translate to the corresponding decimal width
-    // E = 52 - dec_width;
-    // if(E >= 0) temp = temp >> E;
-    // else       temp = temp << -E;
-    // printf("%d %16llx %16llx [%lf]\n",E, temp, *(long long*)&val, val);
-
-    
-    // translate and transform
-    // [Translate] Change the global point-coordinate by Δ||dec|| = ||dec fp|| - ||M|| = dec_width - 52
-    // [Transform] from floating-point to fixed-point (1.M) * 2^(e -1023) -> 2^i . 2^-(j+1)
-    // the total bit-shift is E = (e -1023) + Δ||dec||
-    register int E = ((*(unsigned long long*)&val & 0x7ff0000000000000 ) >> 52) - 1023 - 52 + dec_width; 
-    if(E >= 64)  return __LONG_LONG_MAX__; // if the Exponent value too big 
-    if(E <= -64) return 0;                 // if the Exponent value too small
-    
-    if(E >= 0) { temp = (((*(unsigned long long*)&val | 0x0010000000000000) & 0x001fffffffffffff) << E) ;}
-    else       { temp = (((*(unsigned long long*)&val | 0x0010000000000000) & 0x001fffffffffffff) >> -E) ;}
-    
-    // check the sign
-    if(*( long long*)&val & 0x8000000000000000) temp = -temp;
-    return temp;
-}
-
-// Fixed-Point to Floating-Point Converter
-double fp2lf(register long long val, int dec_width){
-    if (val == 0) return 0;
-    double temp = (double)val * pow(2, -dec_width);
-    
-    return temp;
-}
 
 // General Rotation Formula
 vec_2d GRF(coord_lf p, double a) {
