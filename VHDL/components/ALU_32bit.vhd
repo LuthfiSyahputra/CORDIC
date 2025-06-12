@@ -28,6 +28,7 @@ architecture Structural of ALU_32bit is
     signal sub_flag : STD_LOGIC;
     signal B_eff : STD_LOGIC_VECTOR(31 downto 0);
 
+    
 begin
     sub_flag <= sub;
     ALU_sub_neg: for i in 0 to 31 generate

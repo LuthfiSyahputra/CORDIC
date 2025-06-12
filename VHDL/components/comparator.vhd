@@ -175,23 +175,3 @@ begin
 end Structural;
 
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
-entity cmp_decoder is
-    Port (
-        V    : in std_logic;
-        N    : in std_logic;
-        Z    : in std_logic;
-        lt   : out std_logic
-    );
-end cmp_decoder;
-
-architecture Behavioral of cmp_decoder is
-begin
-    lt <= N xor V;
-    -- eq <= Z;
-    -- le <= (N xor V or Z;
-    -- ge <= not (N xor V);
-    -- gt <= not ((N xor V) or Z)
-end Behavioral;
